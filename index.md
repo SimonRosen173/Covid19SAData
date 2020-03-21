@@ -1,7 +1,7 @@
 Please note that some interactive graphs take a bit of time to load, thank you for your patience.
 ### Date vs Cumulative No of Tests & Positive Cases
 <br>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
 <script>
 jQuery(document).ready(function($) {        
   $("meta[name='viewport']").remove();
