@@ -1,0 +1,241 @@
+case_id,date,province,age,gender,transmission_type
+1,2020-03-05,KZN,38.0,male,Travelled to Italy
+2,2020-03-07,GP,39.0,female,Travelled to Italy
+3,2020-03-08,KZN,38.0,female,Travelled to Italy
+4,2020-03-09,KZN,38.0,male,Travelled to Italy
+5,2020-03-09,KZN,38.0,female,Travelled to Italy
+6,2020-03-09,KZN,45.0,male,Travelled to Italy
+7,2020-03-09,KZN,38.0,male,Travelled to Italy
+8,2020-03-11,GP,33.0,female,Travelled to Italy
+9,2020-03-11,GP,33.0,female,Travelled to Germany
+10,2020-03-11,GP,34.0,male,Travelled to Germany
+11,2020-03-11,GP,57.0,male,Travelled to Austria and Italy
+12,2020-03-11,KZN,40.0,male,Travelled to Portugal
+13,2020-03-11,WC,36.0,male,Travelled to Germany; Austria; Switzerland and Turkey
+14,2020-03-12,KZN,38.0,male,Visiting resident of Turkey travelled to UK
+15,2020-03-12,MP,27.0,female,Travelled to USA
+16,2020-03-12,GP,43.0,male,Travelled to USA
+17,2020-03-13,GP,39.0,female,Travelled to Switzerland and Austria
+18,2020-03-13,GP,50.0,male,Travelled to Austria
+19,2020-03-13,GP,21.0,female,Travelled to Italy
+20,2020-03-13,GP,57.0,male,Travelled to Switzerland
+21,2020-03-13,KZN,79.0,male,Travelled to Greece and Italy
+22,2020-03-13,KZN,52.0,male,Travelled to Switzerland
+23,2020-03-13,WC,50.0,male,Travelled to Switzerland and Austria
+24,2020-03-13,WC,46.0,male,Travelled to Italy
+25,2020-03-14,GP,76.0,male,Travelled to USA and UK
+26,2020-03-14,GP,72.0,female,Travelled to USA and UK
+27,2020-03-14,GP,47.0,male,Travelled to USA and UK
+28,2020-03-14,GP,52.0,male,Travelled to Germany
+29,2020-03-14,GP,38.0,male,Travelled to Netherlands and Germany
+30,2020-03-14,GP,62.0,male,Travelled to Netherlands
+31,2020-03-14,GP,19.0,female,Travelled to France and Italy
+32,2020-03-14,WC,27.0,male,Travelled to Brazil
+33,2020-03-14,WC,33.0,female,Travelled to France
+34,2020-03-14,WC,49.0,male,Travelled to France and Italy
+35,2020-03-14,WC,14.0,female,Travelled to USA and Dubai
+36,2020-03-14,WC,73.0,male,Travelled to UK
+37,2020-03-14,WC,32.0,male,Travelled to UK
+38,2020-03-14,KZN,47.0,male,Travelled to Switzerland
+39,2020-03-15,GP,60.0,male,Travelled to Iran
+40,2020-03-15,GP,36.0,male,Travelled to UK
+41,2020-03-15,GP,54.0,male,Travelled to Switzerland
+42,2020-03-15,GP,27.0,male,Travelled to UK
+43,2020-03-15,GP,21.0,female,Travelled to Germany
+44,2020-03-15,GP,53.0,female,Travelled to Germany
+45,2020-03-15,GP,29.0,male,Travelled to Switzerland
+46,2020-03-15,WC,35.0,female,Travelled to Germany and Austria
+47,2020-03-15,WC,42.0,female,Travelled to Spain; Switzerland and UK
+48,2020-03-15,WC,50.0,male,Travelled to Netherlands
+49,2020-03-15,WC,39.0,male,Travelled to Switzerland
+50,2020-03-15,WC,35.0,male,Travelled to Austria
+51,2020-03-15,KZN,34.0,male,Travelled to UK
+52,2020-03-16,LP,29.0,male,Travelled to France and Netherlands
+53,2020-03-16,WC,39.0,male,Travelled to Canada
+54,2020-03-16,WC,15.0,male,Travelled to France
+55,2020-03-16,GP,33.0,male,Travelled to Spain
+56,2020-03-16,GP,68.0,female,Travelled to Austria
+57,2020-03-16,GP,30.0,male,Travelled to India
+58,2020-03-16,GP,39.0,male,Travelled to USA
+59,2020-03-16,GP,43.0,female,Travelled to USA
+60,2020-03-16,GP,50.0,male,Travelled to France and UK
+61,2020-03-16,GP,37.0,male,Travelled to USA; Mexico and Dubai
+62,2020-03-16,MP,55.0,male,Travelled to France
+63,2020-03-17,GP,45.0,male,Travelled to Belgium; UK; France and US
+64,2020-03-17,GP,37.0,male,Travelled to UK
+65,2020-03-17,GP,54.0,female,Travelled to USA
+66,2020-03-17,GP,52.0,male,Travelled to UK
+67,2020-03-17,GP,25.0,male,Travelled to UK
+68,2020-03-17,GP,52.0,female,Travelled to Italy
+69,2020-03-17,GP,59.0,male,Travelled to UK and Dubai
+70,2020-03-17,GP,57.0,male,Travelled to USA
+71,2020-03-17,GP,60.0,male,Travelled to USA
+72,2020-03-17,GP,37.0,female,Travelled to Italy and Dubai
+73,2020-03-17,GP,21.0,female,no travel history
+74,2020-03-17,GP,34.0,male,no international travel history
+75,2020-03-17,GP,26.0,female,no international travel history
+76,2020-03-17,GP,32.0,female,no international travel history
+77,2020-03-17,KZN,48.0,male,Travelled to Dubai
+78,2020-03-17,KZN,59.0,female,no international travel history
+79,2020-03-17,KZN,5.0,male,no international travel history
+80,2020-03-17,KZN,3.0,male,no international travel history
+81,2020-03-17,WC,3.0,male,Travelled to UK
+82,2020-03-17,WC,58.0,male,Travelled to UK and Austria
+83,2020-03-17,WC,2.0,male,no international travel history
+84,2020-03-17,WC,62.0,female,Travelled to the UK and Ethiopia
+85,2020-03-17,WC,71.0,female,Travelled to the UK
+86,2020-03-18,GP,25.0,male,Travelled to the UK
+87,2020-03-18,GP,45.0,male,Travelled to the Austria
+88,2020-03-18,GP,52.0,male,Travelled to the Austria and Italy
+89,2020-03-18,GP,49.0,female,Travelled to the Austria and Italy
+91,2020-03-18,GP,35.0,male,Travelled to the UK and Netherlands
+92,2020-03-18,GP,34.0,female,Travelled to the UK
+93,2020-03-18,GP,30.0,female,Travelled to the Switzerland and Austria
+94,2020-03-18,GP,36.0,female,Travelled to the Switzerland and Austria
+95,2020-03-18,GP,30.0,female,Travelled to the Italy
+96,2020-03-18,GP,35.0,male,Travelled to the Italy
+97,2020-03-18,GP,34.0,male,Travelled to the Italy
+98,2020-03-18,GP,37.0,male,Travelled to the Finland and France
+99,2020-03-18,GP,20.0,male,no international travel history
+100,2020-03-18,GP,3.0,male,no international travel history
+101,2020-03-18,GP,21.0,female,no international travel history
+102,2020-03-18,GP,71.0,female,no international travel history
+103,2020-03-18,KZN,59.0,male,Travelled to the Austria and Italy
+104,2020-03-18,KZN,54.0,male,Travelled to the Italy
+105,2020-03-18,KZN,55.0,male,Travelled to the Italy
+106,2020-03-18,MP,64.0,male,Travelled to the Italy
+107,2020-03-18,MP,56.0,female,no international travel history
+108,2020-03-18,WC,2.0,male,Travelled to New Zealand
+109,2020-03-18,WC,51.0,male,Travelled to Egypt and Dubai
+110,2020-03-18,WC,34.0,female,Travelled to Switzerland and Dubai
+110,2020-03-18,WC,27.0,female,Travelled to Switzerland and Dubai
+111,2020-03-18,WC,60.0,male,Travelled to Portugal and UK
+112,2020-03-18,WC,51.0,male,Travelled to UK
+113,2020-03-18,WC,54.0,female,Travelled to Portugal and UK
+114,2020-03-18,WC,51.0,male,Travelled to UK
+115,2020-03-18,WC,26.0,female,Travelled to UK
+116,2020-03-18,WC,26.0,male,no international travel history
+117,2020-03-19,GP,41.0,female,Travelled to the Democratic Republic of Congo
+118,2020-03-19,GP,43.0,female,Travelled to the Democratic Republic of Congo
+119,2020-03-19,GP,37.0,female,with no international travel history
+120,2020-03-19,GP,54.0,female,Travelled to the United Kingdom
+121,2020-03-19,GP,58.0,male,Travelled to the United Kingdom
+122,2020-03-19,GP,38.0,male,Travelled to France
+123,2020-03-19,GP,70.0,female,Travelled to the United States of America
+124,2020-03-19,GP,30.0,male,Travelled to Spain
+125,2020-03-19,GP,45.0,male,Travelled to the Democratic Republic of Congo
+126,2020-03-19,GP,85.0,male,Travelled to Switzerland
+127,2020-03-19,GP,64.0,male,Travelled to Vietnam and Thailand
+128,2020-03-19,GP,41.0,male,Travelled to the Netherlands
+129,2020-03-19,GP,23.0,male,with pending travel history
+130,2020-03-19,GP,5.0,female,with pending travel history
+131,2020-03-19,GP,44.0,male,with pending travel history
+132,2020-03-19,KZN,71.0,female,Travelled to the United Kingdom
+133,2020-03-19,KZN,26.0,male,Travelled to Mexico and the United States of America
+134,2020-03-19,KZN,29.0,female,with pending travel history
+135,2020-03-19,MP,56.0,female,Travelled to France
+136,2020-03-19,WC,53.0,female,Travelled to the United Kingdom
+137,2020-03-19,WC,30.0,female,Travelled to the Netherlands and Qatar
+138,2020-03-19,WC,45.0,male,Travelled to Mexico
+139,2020-03-19,WC,70.0,female,Travelled to the United States of America
+140,2020-03-19,WC,25.0,female,Travelled to the United Kingdom
+141,2020-03-19,WC,37.0,female,Travelled to the United Kingdom
+142,2020-03-19,WC,43.0,female,Travelled to the United States of America
+143,2020-03-19,WC,31.0,male,Travelled to Spain and the Netherlands
+144,2020-03-19,WC,53.0,female,Travelled to Switzerland; Austria;  Czech Republic and Germany
+145,2020-03-19,WC,22.0,female,Travelled to the United Kingdom
+146,2020-03-19,WC,63.0,male,Travelled to Switzerland; Czech Republic and Germany
+147,2020-03-19,WC,22.0,male,Travelled to Spain and the Netherlands
+148,2020-03-19,WC,32.0,male,Travelled to the United States of America
+149,2020-03-19,WC,37.0,male,with pending travel history
+150,2020-03-19,WC,34.0,male,with pending travel history
+151,2020-03-20,GP,33.0,male,Travelled to the United Kingdom and France
+152,2020-03-20,GP,32.0,female,with pending travel history
+153,2020-03-20,GP,56.0,male,Travelled to Switzerland
+154,2020-03-20,GP,56.0,female,Travelled to Switzerland
+155,2020-03-20,GP,34.0,female,Travelled to the United Kingdom and Austria
+156,2020-03-20,GP,34.0,male,Travelled to Austria
+157,2020-03-20,GP,27.0,male,with pending travel history
+158,2020-03-20,GP,22.0,female,Travelled to the United Kingdom
+159,2020-03-20,GP,31.0,male,with pending travel history
+160,2020-03-20,GP,52.0,female,Travelled to the United Kingdom
+161,2020-03-20,GP,54.0,male,Travelled to London
+162,2020-03-20,GP,53.0,male,Travelled to Austria and Switzerland
+163,2020-03-20,GP,32.0,female,with pending travel history
+164,2020-03-20,GP,33.0,male,with pending travel history
+165,2020-03-20,GP,52.0,male,with pending travel history
+166,2020-03-20,GP,20.0,male,with pending travel history
+167,2020-03-20,GP,37.0,male,with pending travel history
+168,2020-03-20,GP,47.0,female,with pending travel history
+169,2020-03-20,GP,23.0,male,with no international travel history
+170,2020-03-20,GP,32.0,male,with pending travel history
+171,2020-03-20,GP,21.0,male,with pending travel history
+172,2020-03-20,GP,34.0,female,with pending travel history
+173,2020-03-20,GP,40.0,female,with pending travel history
+174,2020-03-20,GP,41.0,male,with pending travel history
+175,2020-03-20,GP,2.0,male,with pending travel history
+176,2020-03-20,GP,39.0,male,with pending travel history
+177,2020-03-20,GP,58.0,male,with pending travel history
+178,2020-03-20,GP,56.0,male,Travelled to the United States of America
+179,2020-03-20,GP,28.0,male,with pending travel history
+180,2020-03-20,GP,67.0,male,travel to the United Kingdom
+181,2020-03-20,GP,11.0,male,Travelled to Spain
+182,2020-03-20,GP,30.0,male,Travelled to the United States of America
+183,2020-03-20,GP,53.0,male,Travelled to the United Kingdom
+184,2020-03-20,FS,38.0,male,Travelled to France
+185,2020-03-20,FS,54.0,male,with pending travel history
+186,2020-03-20,FS,55.0,male,Travelled to France
+187,2020-03-20,FS,52.0,male,Travelled to Israel
+188,2020-03-20,FS,68.0,male,Travelled to Israel
+189,2020-03-20,FS,74.0,male,with pending travel history
+190,2020-03-20,FS,32.0,female,with pending travel history
+191,2020-03-20,WC,31.0,female,Travelled to the United Kingdom
+192,2020-03-20,WC,34.0,not specified,Travelled to the Netherlands
+193,2020-03-20,WC,26.0,not specified,Travelled to the Netherlands
+194,2020-03-20,WC,29.0,not specified,with pending travel history
+195,2020-03-20,WC,69.0,male,Travelled to Switzerland and Dubai
+196,2020-03-20,WC,58.0,not specified,Travelled to the United Kingdom Austria and Tanzania
+197,2020-03-20,WC,23.0,male,Travelled to the United Kingdom and Germany
+198,2020-03-20,WC,43.0,female,Travelled to Canada and Austria
+199,2020-03-20,WC,60.0,male,Travelled to Saudi Arabia the United Kingdom Switzerland and Austria
+200,2020-03-20,WC,62.0,not specified,Travelled to the United Kingdom Austria and Switzerland
+201,2020-03-20,WC,63.0,male,Travelled to the United Kingdom and Italy
+202,2020-03-20,KZN,29.0,female,with pending travel history
+203,2020-03-21,EC,28.0,female,Travelled to Germany
+204,2020-03-21,GP,,male,Travelled to France
+205,2020-03-21,GP,55.0,male,with pending travel history
+206,2020-03-21,GP,26.0,male,with pending travel history
+207,2020-03-21,GP,34.0,female,with pending travel history
+208,2020-03-21,GP,43.0,female,with pending travel history
+209,2020-03-21,GP,61.0,male,with pending travel history
+210,2020-03-21,GP,6.0,male,with pending travel history
+211,2020-03-21,GP,29.0,female,with pending travel history
+212,2020-03-21,GP,45.0,female,with pending travel history
+213,2020-03-21,GP,64.0,female,with pending travel history
+214,2020-03-21,GP,67.0,male,Travelled to France and Ethiopia
+215,2020-03-21,GP,39.0,male,Travelled to UK
+216,2020-03-21,GP,42.0,female,Travelled to Belgium and the Netherlands
+217,2020-03-21,GP,41.0,male,Travelled to France and Italy
+218,2020-03-21,GP,37.0,female,with pending travel history
+219,2020-03-21,GP,30.0,female,Travelled to UK and Netherlands
+220,2020-03-21,KZN,59.0,male,with pending travel history
+221,2020-03-21,KZN,68.0,male,with pending travel history
+222,2020-03-21,KZN,26.0,female,Travelled to UK and USA
+223,2020-03-21,WC,30.0,female,Travelled to Ireland
+224,2020-03-21,WC,57.0,female,Travelled to Germany and Switzerland
+225,2020-03-21,WC,55.0,male,Travelled to France and Switzerland
+226,2020-03-21,WC,74.0,female,Travelled to UK
+227,2020-03-21,WC,52.0,male,with pending travel history
+228,2020-03-21,WC,44.0,male,Travelled to the USA
+229,2020-03-21,WC,26.0,female,Travelled to UK
+230,2020-03-21,WC,57.0,male,Travelled to Spain
+231,2020-03-21,WC,36.0,male,Travelled to UK and France
+232,2020-03-21,WC,40.0,female,with pending travel history
+233,2020-03-21,WC,52.0,female,Travelled to UK
+234,2020-03-21,WC,48.0,female,Travelled to UK
+235,2020-03-21,WC,39.0,male,Travelled to Dublin and Ireland
+236,2020-03-21,WC,36.0,male,with pending travel history
+237,2020-03-21,WC,55.0,female,with pending travel history
+238,2020-03-21,WC,45.0,male,Travelled to Germany and Austria
+239,2020-03-21,WC,65.0,female,Travelled to UK
+240,2020-03-21,WC,34.0,male,with pending travel history
