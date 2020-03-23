@@ -42,7 +42,7 @@ ___
 
 # Testing & Cases Over Time
 ___
-## Overall
+## Cumulative
 ### Date vs Cumulative No of Tests & Positive Cases 
 <div class="iframeDiv" align="center">
     <iframe src="https://simonrosen173.github.io/Covid19SAData/date_vs_cases_tests.html" frameborder="0" width="100%" height ="450px"></iframe>
@@ -53,16 +53,27 @@ ___
     <iframe src="https://simonrosen173.github.io/Covid19SAData/date_vs_cases.html" frameborder="0" width="100%" height ="450px"></iframe>
 </div>
 
+### Date vs Cumulative No of Positive Cases Per Province
+Note: You can click on provinces in the legend to hide or show them on the graph.
+<div class="iframeDiv" align="center">
+    <iframe src="https://simonrosen173.github.io/Covid19SAData/date_vs_cases_per_province.html" frameborder="0" width="100%" height ="450px"></iframe>
+</div>
+
+## Daily
 ### Date vs Daily No of Positive Cases 
 <div class="iframeDiv" align="center">
     <iframe src="https://simonrosen173.github.io/Covid19SAData/date_vs_daily_cases.html" frameborder="0" width="100%" height ="450px"></iframe>
 </div>
 
-## Grouped
-Note: You can click on items in the legend to hide or show them on the graph.
-### Date vs Cumulative No of Positive Cases Per Province
+<!--
+### Date vs Daily No of Tests
 <div class="iframeDiv" align="center">
-    <iframe src="https://simonrosen173.github.io/Covid19SAData/date_vs_cases_per_province.html" frameborder="0" width="100%" height ="450px"></iframe>
+    <iframe src="https://simonrosen173.github.io/Covid19SAData/date_vs_daily_tests.html" frameborder="0" width="100%" height ="450px"></iframe>
 </div>
 
+### Date vs Daily No of Positive Cases & Tests
+<div class="iframeDiv" align="center">
+    <iframe src="https://simonrosen173.github.io/Covid19SAData/date_vs_daily_tests_cases.html" frameborder="0" width="100%" height ="450px"></iframe>
+</div>
+-->
 **Data last updated: 10:00 23 March 2020**
