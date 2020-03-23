@@ -1,7 +1,20 @@
-**This site is best viewed in Desktop Mode**
+
+<!-- Hopefully should remove issue where on mobile div flashes blue. Maybe? -->
+<script type="text/css">
+    .iframeDiv {
+        user-select: none; /* supported by Chrome and Opera */
+       -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+       -ms-user-select: none; /* Internet Explorer/Edge */
+    }
+</script>
+
+**Note for mobile users: This site is not supported for mobile mode, please switch to desktop mode.**
 
 Please note that some interactive graphs take a bit of time to load, thank you for your patience. <br>
 
+These chart are all interactive. Mouse over an aspect of the chart to see more info, or if you are on mobile tap.
 # Total Cases 
 **276 Infected | 9315 Tested**
 
