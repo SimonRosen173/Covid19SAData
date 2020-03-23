@@ -17,7 +17,7 @@ Please note that some interactive graphs take a bit of time to load, thank you f
 
 These charts are all interactive. Mouse over an aspect of the chart to see more info, or if you are on mobile tap.
 # Total Cases 
-**276 Infected | 9315 Tested**
+**{#tot_cases#} Infected | {#tot_tests#} Tested**
 
 ___
 ### Total Cases Per Province
@@ -75,4 +75,4 @@ Note, the data contained in this figure was obtained by calculating the differen
 <div class="iframeDiv" align="center">
     <iframe src="https://simonrosen173.github.io/Covid19SAData/date_vs_daily_tests_cases.html" frameborder="0" width="100%" height ="450px"></iframe>
 </div>
-**Data last updated: 10:00 23 March 2020**
+**Data last updated: {#datetime_updated#}**
