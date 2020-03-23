@@ -38,4 +38,10 @@ ___
     <iframe src="https://simonrosen173.github.io/Covid19SAData/date_vs_cases.html" frameborder="0" width="100%" height ="450px"></iframe>
 </div>
 
+### Date vs Cumulative No of Positive Cases Per Province
+<div class="iframeDiv" align="center">
+    <iframe src="https://simonrosen173.github.io/Covid19SAData/date_vs_cases_per_province.html" frameborder="0" width="100%" height ="450px"></iframe>
+</div>
+Note: You can click on provinces in the legend to hide or show them on the chart.
+
 **Data last updated: 10:00 23 March 2020**
