@@ -17,7 +17,7 @@ Please note that some interactive graphs take a bit of time to load, thank you f
 
 These charts are all interactive. Mouse over an aspect of the chart to see more info, or if you are on mobile tap.
 # Total Cases 
-**402 Infected | 12 815 Tested**
+**554 Infected (+152 today) | 15 529 Tested (+2714 today)**
 
 ___
 ### Total Cases Per Province
@@ -29,16 +29,19 @@ ___
 <div class="iframeDiv" align="center">
     <iframe src="https://simonrosen173.github.io/Covid19SAData/tot_cases_per_gender.html" frameborder="0" width="100%" height ="400px"></iframe>
 </div>
+Last updated - 19:00 23 March 2020 (New data not released yet by gov.)
 
 ### Total Cases Per Transmission Type
 <div class="iframeDiv" align="center">
     <iframe src="https://simonrosen173.github.io/Covid19SAData/tot_cases_per_travel.html" frameborder="0" width="100%" height ="400px"></iframe>
 </div>
+Last updated - 19:00 23 March 2020 (New data not released yet by gov.)
 
 ### Total Cases Per Age Group
 <div class="iframeDiv" align="center">
     <iframe src="https://simonrosen173.github.io/Covid19SAData/tot_cases_per_age.html" frameborder="0" width="100%" height ="400px"></iframe>
 </div>
+Last updated - 19:00 23 March 2020 (New data not released yet by gov.)
 
 # Testing & Cases Over Time
 ___
@@ -75,4 +78,4 @@ Note, the data contained in this figure was obtained by calculating the differen
 <div class="iframeDiv" align="center">
     <iframe src="https://simonrosen173.github.io/Covid19SAData/date_vs_daily_tests_cases.html" frameborder="0" width="100%" height ="450px"></iframe>
 </div>
-**Data last updated: 14:00 24 March 2020**
+**Data last updated: 17:00 24 March 2020**
