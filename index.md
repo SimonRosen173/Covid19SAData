@@ -79,3 +79,10 @@ Note, the data contained in this figure was obtained by calculating the differen
     <iframe src="https://simonrosen173.github.io/Covid19SAData/date_vs_daily_tests_cases.html" frameborder="0" width="100%" height ="450px"></iframe>
 </div>
 **Data last updated: 17:00 24 March 2020**
+
+# References
+### Data
+* [Coronavirus COVID-19 (2019-nCoV) Data Repository for South Africa](https://github.com/dsfsi/covid19za) - 
+DSFSI research group at the University of Pretoria
+* [COVID-19 Corona Virus South African Resource Portal](https://sacoronavirus.co.za/)
+* [NICD Twitter](https://twitter.com/nicd_sa?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor)
