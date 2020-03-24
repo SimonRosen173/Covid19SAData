@@ -17,7 +17,7 @@ Please note that some interactive graphs take a bit of time to load, thank you f
 
 These charts are all interactive. Mouse over an aspect of the chart to see more info, or if you are on mobile tap.
 # Total Cases 
-**276 Infected | 9315 Tested**
+**402 Infected | 12 815 Tested**
 
 ___
 ### Total Cases Per Province

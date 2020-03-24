@@ -1,0 +1,171 @@
+date,province,cumulative_cases,daily_cases
+2020-03-05,Eastern Cape,0,0.0
+2020-03-07,Eastern Cape,0,0.0
+2020-03-08,Eastern Cape,0,0.0
+2020-03-09,Eastern Cape,0,0.0
+2020-03-11,Eastern Cape,0,0.0
+2020-03-12,Eastern Cape,0,0.0
+2020-03-13,Eastern Cape,0,0.0
+2020-03-14,Eastern Cape,0,0.0
+2020-03-15,Eastern Cape,0,0.0
+2020-03-16,Eastern Cape,0,0.0
+2020-03-17,Eastern Cape,0,0.0
+2020-03-18,Eastern Cape,0,0.0
+2020-03-19,Eastern Cape,0,0.0
+2020-03-20,Eastern Cape,0,0.0
+2020-03-21,Eastern Cape,1,1.0
+2020-03-22,Eastern Cape,2,1.0
+2020-03-23,Eastern Cape,2,0.0
+2020-03-05,Free State,0,0.0
+2020-03-07,Free State,0,0.0
+2020-03-08,Free State,0,0.0
+2020-03-09,Free State,0,0.0
+2020-03-11,Free State,0,0.0
+2020-03-12,Free State,0,0.0
+2020-03-13,Free State,0,0.0
+2020-03-14,Free State,0,0.0
+2020-03-15,Free State,0,0.0
+2020-03-16,Free State,0,0.0
+2020-03-17,Free State,0,0.0
+2020-03-18,Free State,0,0.0
+2020-03-19,Free State,0,0.0
+2020-03-20,Free State,7,7.0
+2020-03-21,Free State,7,0.0
+2020-03-22,Free State,9,2.0
+2020-03-23,Free State,13,4.0
+2020-03-05,Gauteng,0,0.0
+2020-03-07,Gauteng,1,1.0
+2020-03-08,Gauteng,1,0.0
+2020-03-09,Gauteng,1,0.0
+2020-03-11,Gauteng,5,4.0
+2020-03-12,Gauteng,6,1.0
+2020-03-13,Gauteng,10,4.0
+2020-03-14,Gauteng,17,7.0
+2020-03-15,Gauteng,24,7.0
+2020-03-16,Gauteng,31,7.0
+2020-03-17,Gauteng,45,14.0
+2020-03-18,Gauteng,61,16.0
+2020-03-19,Gauteng,76,15.0
+2020-03-20,Gauteng,109,33.0
+2020-03-21,Gauteng,125,16.0
+2020-03-22,Gauteng,132,7.0
+2020-03-23,Gauteng,207,75.0
+2020-03-05,KwaZula-Natal,1,1.0
+2020-03-07,KwaZula-Natal,1,0.0
+2020-03-08,KwaZula-Natal,2,1.0
+2020-03-09,KwaZula-Natal,6,4.0
+2020-03-11,KwaZula-Natal,7,1.0
+2020-03-12,KwaZula-Natal,8,1.0
+2020-03-13,KwaZula-Natal,10,2.0
+2020-03-14,KwaZula-Natal,11,1.0
+2020-03-15,KwaZula-Natal,12,1.0
+2020-03-16,KwaZula-Natal,12,0.0
+2020-03-17,KwaZula-Natal,16,4.0
+2020-03-18,KwaZula-Natal,19,3.0
+2020-03-19,KwaZula-Natal,22,3.0
+2020-03-20,KwaZula-Natal,23,1.0
+2020-03-21,KwaZula-Natal,26,3.0
+2020-03-22,KwaZula-Natal,35,9.0
+2020-03-23,KwaZula-Natal,60,25.0
+2020-03-05,Limpopo,0,0.0
+2020-03-07,Limpopo,0,0.0
+2020-03-08,Limpopo,0,0.0
+2020-03-09,Limpopo,0,0.0
+2020-03-11,Limpopo,0,0.0
+2020-03-12,Limpopo,0,0.0
+2020-03-13,Limpopo,0,0.0
+2020-03-14,Limpopo,0,0.0
+2020-03-15,Limpopo,0,0.0
+2020-03-16,Limpopo,1,1.0
+2020-03-17,Limpopo,1,0.0
+2020-03-18,Limpopo,1,0.0
+2020-03-19,Limpopo,1,0.0
+2020-03-20,Limpopo,1,0.0
+2020-03-21,Limpopo,1,0.0
+2020-03-22,Limpopo,2,1.0
+2020-03-23,Limpopo,4,2.0
+2020-03-05,Mpumalanga,0,0.0
+2020-03-07,Mpumalanga,0,0.0
+2020-03-08,Mpumalanga,0,0.0
+2020-03-09,Mpumalanga,0,0.0
+2020-03-11,Mpumalanga,0,0.0
+2020-03-12,Mpumalanga,1,1.0
+2020-03-13,Mpumalanga,1,0.0
+2020-03-14,Mpumalanga,1,0.0
+2020-03-15,Mpumalanga,1,0.0
+2020-03-16,Mpumalanga,2,1.0
+2020-03-17,Mpumalanga,2,0.0
+2020-03-18,Mpumalanga,4,2.0
+2020-03-19,Mpumalanga,5,1.0
+2020-03-20,Mpumalanga,5,0.0
+2020-03-21,Mpumalanga,5,0.0
+2020-03-22,Mpumalanga,5,0.0
+2020-03-23,Mpumalanga,9,4.0
+2020-03-05,Northern Cape,0,0.0
+2020-03-07,Northern Cape,0,0.0
+2020-03-08,Northern Cape,0,0.0
+2020-03-09,Northern Cape,0,0.0
+2020-03-11,Northern Cape,0,0.0
+2020-03-12,Northern Cape,0,0.0
+2020-03-13,Northern Cape,0,0.0
+2020-03-14,Northern Cape,0,0.0
+2020-03-15,Northern Cape,0,0.0
+2020-03-16,Northern Cape,0,0.0
+2020-03-17,Northern Cape,0,0.0
+2020-03-18,Northern Cape,0,0.0
+2020-03-19,Northern Cape,0,0.0
+2020-03-20,Northern Cape,0,0.0
+2020-03-21,Northern Cape,0,0.0
+2020-03-22,Northern Cape,0,0.0
+2020-03-23,Northern Cape,2,2.0
+2020-03-05,North West,0,0.0
+2020-03-07,North West,0,0.0
+2020-03-08,North West,0,0.0
+2020-03-09,North West,0,0.0
+2020-03-11,North West,0,0.0
+2020-03-12,North West,0,0.0
+2020-03-13,North West,0,0.0
+2020-03-14,North West,0,0.0
+2020-03-15,North West,0,0.0
+2020-03-16,North West,0,0.0
+2020-03-17,North West,0,0.0
+2020-03-18,North West,0,0.0
+2020-03-19,North West,0,0.0
+2020-03-20,North West,0,0.0
+2020-03-21,North West,0,0.0
+2020-03-22,North West,0,0.0
+2020-03-23,North West,4,4.0
+2020-03-05,Western Cape,0,0.0
+2020-03-07,Western Cape,0,0.0
+2020-03-08,Western Cape,0,0.0
+2020-03-09,Western Cape,0,0.0
+2020-03-11,Western Cape,1,1.0
+2020-03-12,Western Cape,1,0.0
+2020-03-13,Western Cape,3,2.0
+2020-03-14,Western Cape,9,6.0
+2020-03-15,Western Cape,14,5.0
+2020-03-16,Western Cape,16,2.0
+2020-03-17,Western Cape,21,5.0
+2020-03-18,Western Cape,31,10.0
+2020-03-19,Western Cape,46,15.0
+2020-03-20,Western Cape,57,11.0
+2020-03-21,Western Cape,75,18.0
+2020-03-22,Western Cape,89,14.0
+2020-03-23,Western Cape,100,11.0
+2020-03-05,Unknown,0,0.0
+2020-03-07,Unknown,0,0.0
+2020-03-08,Unknown,0,0.0
+2020-03-09,Unknown,0,0.0
+2020-03-11,Unknown,0,0.0
+2020-03-12,Unknown,0,0.0
+2020-03-13,Unknown,0,0.0
+2020-03-14,Unknown,0,0.0
+2020-03-15,Unknown,0,0.0
+2020-03-16,Unknown,0,0.0
+2020-03-17,Unknown,0,0.0
+2020-03-18,Unknown,0,0.0
+2020-03-19,Unknown,0,0.0
+2020-03-20,Unknown,0,0.0
+2020-03-21,Unknown,0,0.0
+2020-03-22,Unknown,0,0.0
+2020-03-23,Unknown,1,1.0
