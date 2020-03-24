@@ -75,4 +75,4 @@ Note, the data contained in this figure was obtained by calculating the differen
 <div class="iframeDiv" align="center">
     <iframe src="https://simonrosen173.github.io/Covid19SAData/date_vs_daily_tests_cases.html" frameborder="0" width="100%" height ="450px"></iframe>
 </div>
-**Data last updated: 10:00 23 March 2020**
+**Data last updated: 14:00 24 March 2020**
