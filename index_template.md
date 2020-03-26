@@ -108,3 +108,5 @@ Make sure to keep up to date using the following sources:
 DSFSI research group at the University of Pretoria
 * [COVID-19 Corona Virus South African Resource Portal](https://sacoronavirus.co.za/)
 * [NICD Twitter](https://twitter.com/nicd_sa?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor)
+
+Note: data will only be updated after being officially released by government.
