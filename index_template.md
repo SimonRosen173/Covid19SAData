@@ -70,31 +70,31 @@ Note: You can click on provinces in the legend to hide or show them on the graph
 </div>
 
 ## Daily
-### Date vs Daily No of Positive Cases 
+### Date vs No of Positive Cases Per Day
 <div class="iframeDiv" align="center">
     <iframe src="https://simonrosen173.github.io/Covid19SAData/date_vs_daily_cases.html" frameborder="0" width="100%" height ="450px"></iframe>
 </div>
 
-### Date vs Daily No of Tests
+### Date vs No of Tests Per Day
 <div class="iframeDiv" align="center">
     <iframe src="https://simonrosen173.github.io/Covid19SAData/date_vs_daily_tests.html" frameborder="0" width="100%" height ="450px"></iframe>
 </div>
 Note, the data contained in this figure was obtained by calculating the difference between the daily 'total tested' statistics released by governement. As such this data may not directly correspond to the amount of tests actually conducted each day. 
 
-### Date vs Daily No of Positive Cases & Tests
+### Date vs No of Positive Cases & Tests Per Day
 <div class="iframeDiv" align="center">
     <iframe src="https://simonrosen173.github.io/Covid19SAData/date_vs_daily_tests_cases.html" frameborder="0" width="100%" height ="450px"></iframe>
 </div>
 
-### Date vs Daily No of Positive Cases Per Province
+### Date vs No of Positive Cases Per Day Per Province
 <div class="iframeDiv" align="center">
     <iframe src="https://simonrosen173.github.io/Covid19SAData/date_vs_daily_cases_per_province.html" frameborder="0" width="100%" height ="450px"></iframe>
 </div>
 
 **Data last updated: {#datetime_updated#}**
 
-# Upcoming Features
-* Predicted curve for daily & cumulative cases.
+<!--# Upcoming Features
+* Predicted curve for daily & cumulative cases. -->
 
 # Further Info
 ### N.B. Contact Info
@@ -104,13 +104,16 @@ Note, the data contained in this figure was obtained by calculating the differen
 ### Resources
 Make sure to keep up to date using the following sources:
 * [COVID-19 Corona Virus South African Resource Portal](https://sacoronavirus.co.za/)
+* [National Institute for Communicable Diseases Website](http://www.nicd.ac.za/)
+* [South African Government News Agency Website](https://www.sanews.gov.za/)
 
 # References
 ### Data
 * [Coronavirus COVID-19 (2019-nCoV) Data Repository for South Africa](https://github.com/dsfsi/covid19za) - 
-DSFSI research group at the University of Pretoria
+Data Science for Social Impact Research Group at the University of Pretoria
 * [COVID-19 Corona Virus South African Resource Portal](https://sacoronavirus.co.za/)
 * [NICD Twitter](https://twitter.com/nicd_sa?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor)
+* [South African Government News Agency Website](https://www.sanews.gov.za/)
 
 <br>
 Note: Data will only be updated after being officially released by government. This is to avoid using incorrect data.
