@@ -57,7 +57,8 @@ ___
     <iframe src="https://simonrosen173.github.io/Covid19SAData/date_vs_cases_tests.html" frameborder="0" width="100%" height ="450px"></iframe>
 </div>
 
-### Date vs Cumulative No of Positive Cases 
+### Date vs Cumulative No of Positive Cases
+Note: You can hide/show the predicted curve by clicking on it in the legend. 
 <div class="iframeDiv" align="center">
     <iframe src="https://simonrosen173.github.io/Covid19SAData/date_vs_cases.html" frameborder="0" width="100%" height ="450px"></iframe>
 </div>
