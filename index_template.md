@@ -93,6 +93,9 @@ Note, the data contained in this figure was obtained by calculating the differen
 
 **Data last updated: {#datetime_updated#}**
 
+# Upcoming Features
+* Predicted curve for daily & cumulative cases.
+
 # Further Info
 ### N.B. Contact Info
 * SA DoH's Covid-19 Emergency Hotline: [0800 029 999](tel:0800 029 999)
@@ -109,4 +112,4 @@ DSFSI research group at the University of Pretoria
 * [COVID-19 Corona Virus South African Resource Portal](https://sacoronavirus.co.za/)
 * [NICD Twitter](https://twitter.com/nicd_sa?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor)
 
-Note: data will only be updated after being officially released by government.
+Note: Data will only be updated after being officially released by government. This is to avoid using incorrect data.
