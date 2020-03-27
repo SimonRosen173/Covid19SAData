@@ -23,8 +23,8 @@ def render_template(in_file_name, out_file_name, var_dict):
 template_name = "index_template.md"
 output_name = "index.md"  # Outputted file
 
-varDict = dict(tot_infected="709", change_infected="155",
-               tot_tested="15 529", change_tested="0",
-               datetime_updated="20:00 25 March 2020")
+varDict = dict(tot_infected="927", change_infected="218", tot_deaths="",
+               tot_tested="20 417", change_tested="4942", change_deaths="",
+               datetime_updated="10:00 27 March 2020")
 
 render_template(template_name, output_name, varDict)

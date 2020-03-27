@@ -16,7 +16,7 @@ For info on how to do this, click [here](https://support.gpsgate.com/hc/en-us/ar
 Please note that some interactive graphs take a bit of time to load, thank you for your patience. <br>
 
 # Updates
-* South Africa to enter lockdown for 21 days with effect from midnight on Thursday. Under the lockdown, South Africans will be required to stay at home from midnight on Thursday 26 March 2020, until midnight on Thursday 16 April 2020. [Source](https://www.sanews.gov.za/south-africa/coronavirus-sa-go-lockdown)
+* South Africa is currently in lockdown. Under the lockdown, South Africans will be required to stay at home from midnight on Thursday 26 March 2020, until midnight on Thursday 16 April 2020. [[Source]](https://www.sanews.gov.za/south-africa/coronavirus-sa-go-lockdown)
 <br><br>
 
 These charts are all interactive. Mouse over an aspect of the chart to see more info, or if you are on mobile tap.
