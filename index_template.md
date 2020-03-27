@@ -21,7 +21,7 @@ Please note that some interactive graphs take a bit of time to load, thank you f
 
 These charts are all interactive. Mouse over an aspect of the chart to see more info, or if you are on mobile tap.
 # Total Cases 
-**{#tot_infected#} Infected (+{#change_infected#} today) | {#tot_tested#} Tested (+{#change_tested#} today)**
+**{#tot_infected#} Infected (+{#change_infected#} today) | {#tot_tested#} Tested (+{#change_tested#} today) | {#tot_deaths#} Deaths (+{#change_deaths#} today)** 
 
 ___
 ### Total Cases Per Province
@@ -112,4 +112,8 @@ DSFSI research group at the University of Pretoria
 * [COVID-19 Corona Virus South African Resource Portal](https://sacoronavirus.co.za/)
 * [NICD Twitter](https://twitter.com/nicd_sa?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor)
 
+<br>
 Note: Data will only be updated after being officially released by government. This is to avoid using incorrect data.
+<br>
+
+If you encounter incorrect data on this site please report it via this email: [simonrosen173@gmail.com](mailto:simonrosen173@gmail.com)
