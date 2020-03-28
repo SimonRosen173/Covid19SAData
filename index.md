@@ -21,16 +21,18 @@ Please note that some interactive graphs take a bit of time to load, thank you f
 
 These charts are all interactive. Mouse over an aspect of the chart to see more info, or if you are on mobile tap.
 # Total Cases 
-**927 Infected (+218 today) | 20 417 Tested (+4942 today) | 2 Deaths (+2 today)** 
+**1 170 Infected (+243 today) | 28 537 Tested (+8 066 today) | 1 Deaths (+0 today)** 
 
 ___
 ### Total Cases Per Province
 <div class="iframeDiv" align="center">
     <iframe src="https://simonrosen173.github.io/Covid19SAData/tot_cases_per_province.html" frameborder="0" width="100%" height ="400px"></iframe>
 </div>
+Total cases is for 26 March as data for 27 March has not been released by government.
 
-**Note: It seems like government is no longer releasing information on the gender, age or transmission type of confirmed cases. Thus as a result, the following three charts will not be updated.**
+**Charts for total cases per gender, age and transmission type were removed as these numbers are no longer released by government.**
 
+<!--
 ### Total Cases Per Gender
 <div class="iframeDiv" align="center">
     <iframe src="https://simonrosen173.github.io/Covid19SAData/tot_cases_per_gender.html" frameborder="0" width="100%" height ="400px"></iframe>
@@ -48,6 +50,7 @@ Last updated - 19:00 23 March 2020 (New data not released yet by gov.)
     <iframe src="https://simonrosen173.github.io/Covid19SAData/tot_cases_per_age.html" frameborder="0" width="100%" height ="400px"></iframe>
 </div>
 Last updated - 19:00 23 March 2020 (New data not released yet by gov.)
+-->
 
 # Testing & Cases Over Time
 ___
@@ -69,6 +72,7 @@ Note: You can click on provinces in the legend to hide or show them on the graph
 <div class="iframeDiv" align="center">
     <iframe src="https://simonrosen173.github.io/Covid19SAData/date_vs_cases_per_province.html" frameborder="0" width="100%" height ="450px"></iframe>
 </div>
+Cases per province for 27 March has not been released by government.
 
 ## Daily
 ### Date vs No of Positive Cases Per Day
@@ -91,11 +95,13 @@ Note, the data contained in this figure was obtained by calculating the differen
 <div class="iframeDiv" align="center">
     <iframe src="https://simonrosen173.github.io/Covid19SAData/date_vs_daily_cases_per_province.html" frameborder="0" width="100%" height ="450px"></iframe>
 </div>
+Cases per province for 27 March has not been released by government.
+<br><br>
 
-**Data last updated: 10:00 27 March 2020**
+**Data last updated: 12:51 28 March 2020**
 
-<!--# Upcoming Features
-* Predicted curve for daily & cumulative cases. -->
+# Upcoming Features
+* Graphs for recovered, in hospital, critical and deaths.
 
 # Further Info
 ### N.B. Contact Info
