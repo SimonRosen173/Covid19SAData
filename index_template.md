@@ -22,13 +22,16 @@ Please note that some interactive graphs take a bit of time to load, thank you f
 These charts are all interactive. Mouse over an aspect of the chart to see more info, or if you are on mobile tap.
 # Total Cases 
 **{#tot_infected#} Infected (+{#change_infected#} today) | {#tot_tested#} Tested (+{#change_tested#} today) | {#tot_deaths#} Deaths (+{#change_deaths#} today)** 
+<br><br>
+
+"We must outrightly state that these numbers do not indicate a reduction in the number of infections. 
+It is merely a reflection of positive results that were received, verified and ready for today’s reporting."  - 28 March 2020 [SA Department of Health Twitter Statement](https://twitter.com/HealthZA/status/1243968569597181957)
 
 ___
 ### Total Cases Per Province
 <div class="iframeDiv" align="center">
     <iframe src="https://simonrosen173.github.io/Covid19SAData/tot_cases_per_province.html" frameborder="0" width="100%" height ="400px"></iframe>
 </div>
-Total cases is for 26 March as data for 27 March has not been released by government.
 
 **Charts for total cases per gender, age and transmission type were removed as these numbers are no longer released by government.**
 
@@ -72,7 +75,6 @@ Note: You can click on provinces in the legend to hide or show them on the graph
 <div class="iframeDiv" align="center">
     <iframe src="https://simonrosen173.github.io/Covid19SAData/date_vs_cases_per_province.html" frameborder="0" width="100%" height ="450px"></iframe>
 </div>
-Cases per province for 27 March has not been released by government.
 
 ## Daily
 ### Date vs No of Positive Cases Per Day
@@ -95,7 +97,6 @@ Note, the data contained in this figure was obtained by calculating the differen
 <div class="iframeDiv" align="center">
     <iframe src="https://simonrosen173.github.io/Covid19SAData/date_vs_daily_cases_per_province.html" frameborder="0" width="100%" height ="450px"></iframe>
 </div>
-Cases per province for 27 March has not been released by government.
 <br><br>
 
 **Data last updated: {#datetime_updated#}**
