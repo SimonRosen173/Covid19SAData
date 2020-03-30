@@ -21,12 +21,13 @@ Please note that some interactive graphs take a bit of time to load, thank you f
 
 These charts are all interactive. Mouse over an aspect of the chart to see more info, or if you are on mobile tap.
 # Total Cases 
-**1 187 Infected (+17 today) | 31 963 Tested (+3 426 today) | 1 Deaths (+0 today)** 
+**1280 Infected (+93 today) | 35593 Tested (+3630 today) | 2 Deaths (+1 today)** 
 <br><br>
 
+<!--
 "We must outrightly state that these numbers do not indicate a reduction in the number of infections. 
 It is merely a reflection of positive results that were received, verified and ready for today’s reporting."  - 28 March 2020 [SA Department of Health Twitter Statement](https://twitter.com/HealthZA/status/1243968569597181957)
-
+-->
 ___
 ### Total Cases Per Province
 <div class="iframeDiv" align="center">
@@ -99,7 +100,7 @@ Note, the data contained in this figure was obtained by calculating the differen
 </div>
 <br><br>
 
-**Data last updated: 11:36 29 March 2020**
+**Data last updated: 13:23 30 March 2020**
 
 # Upcoming Features
 * Graphs for recovered, in hospital, critical and deaths.

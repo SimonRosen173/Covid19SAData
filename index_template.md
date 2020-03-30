@@ -24,9 +24,10 @@ These charts are all interactive. Mouse over an aspect of the chart to see more 
 **{#tot_infected#} Infected (+{#change_infected#} today) | {#tot_tested#} Tested (+{#change_tested#} today) | {#tot_deaths#} Deaths (+{#change_deaths#} today)** 
 <br><br>
 
+<!--
 "We must outrightly state that these numbers do not indicate a reduction in the number of infections. 
 It is merely a reflection of positive results that were received, verified and ready for today’s reporting."  - 28 March 2020 [SA Department of Health Twitter Statement](https://twitter.com/HealthZA/status/1243968569597181957)
-
+-->
 ___
 ### Total Cases Per Province
 <div class="iframeDiv" align="center">

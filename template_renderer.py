@@ -23,8 +23,24 @@ def render_template(in_file_name, out_file_name, var_dict):
 template_name = "index_template.md"
 output_name = "index.md"  # Outputted file
 
-varDict = dict(tot_infected="1 187", change_infected="17", tot_deaths="1",
-               tot_tested="31 963", change_tested="3 426", change_deaths="0",
-               datetime_updated="11:36 29 March 2020")
+import pandas as pd
+import numpy as np
 
+gen_data = pd.read_csv('data/gen_data.csv')
+tot_infected = gen_data.tail(1).iloc[0]['tot_infected']
+change_infected = gen_data.tail(1).iloc[0]['change_infected']
+
+tot_tested = gen_data.tail(1).iloc[0]['tot_tested']
+change_tested = gen_data.tail(1).iloc[0]['change_tested']
+
+tot_deaths = gen_data.tail(1).iloc[0]['tot_deaths']
+change_deaths = gen_data.tail(1).iloc[0]['change_deaths']
+
+datetime_updated = gen_data.tail(1).iloc[0]['datetime_updated']
+
+varDict = dict(tot_infected=tot_infected, change_infected=change_infected, tot_deaths=tot_deaths,
+               tot_tested=tot_tested, change_tested=change_tested, change_deaths=change_deaths,
+               datetime_updated=datetime_updated)
+
+# print(varDict)
 render_template(template_name, output_name, varDict)
