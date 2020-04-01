@@ -21,7 +21,7 @@ Please note that some interactive graphs take a bit of time to load, thank you f
 
 These charts are all interactive. Mouse over an aspect of the chart to see more info, or if you are on mobile tap.
 # Total Cases 
-**1326 Infected (+46 today) | 38409 Tested (+2816 today) | 3 Deaths (+1 today)** 
+**1353 Infected (+27 today) | 41072 Tested (+2663 today) | 5 Deaths (+2 today)** 
 <br><br>
 
 <!--
