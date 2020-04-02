@@ -21,7 +21,7 @@ Please note that some interactive graphs take a bit of time to load, thank you f
 
 These charts are all interactive. Mouse over an aspect of the chart to see more info, or if you are on mobile tap.
 # Total Cases 
-**1353 Infected (+27 today) | 41072 Tested (+2663 today) | 5 Deaths (+2 today)** 
+**1380 Infected (+27 today) | 44292 Tested (+3220 today) | 5 Deaths (+0 today)** 
 <br><br>
 
 <!--
@@ -100,7 +100,7 @@ Note, the data contained in this figure was obtained by calculating the differen
 </div>
 <br><br>
 
-**Data last updated: 14:52 31 March 2020**
+**Data last updated: 13:36 02 April 2020**
 
 # Upcoming Features
 * Graphs for recovered, in hospital, critical and deaths.
