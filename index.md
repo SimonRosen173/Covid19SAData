@@ -100,10 +100,27 @@ Note, the data contained in this figure was obtained by calculating the differen
 </div>
 <br><br>
 
-**Data last updated: 13:36 02 April 2020**
+# Recoveries And Deaths Over Time
+___
+## Cumulative
+### Date vs Cumulative No of Recoveries & Deaths
+<div class="iframeDiv" align="center">
+    <iframe src="https://simonrosen173.github.io/Covid19SAData/cumulative_deaths_recovered.html" frameborder="0" width="100%" height ="450px"></iframe>
+</div>
 
-# Upcoming Features
-* Graphs for recovered, in hospital, critical and deaths.
+### Date vs Cumulative No of Recoveries
+<div class="iframeDiv" align="center">
+    <iframe src="https://simonrosen173.github.io/Covid19SAData/cumulative_recovered.html" frameborder="0" width="100%" height ="450px"></iframe>
+</div>
+
+### Date vs Cumulative No of Deaths
+<div class="iframeDiv" align="center">
+    <iframe src="https://simonrosen173.github.io/Covid19SAData/cumulative_deaths.html" frameborder="0" width="100%" height ="450px"></iframe>
+</div>
+
+<br><br>
+
+**Data last updated: 13:36 02 April 2020**
 
 # Further Info
 ### N.B. Contact Info
