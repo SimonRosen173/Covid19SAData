@@ -21,7 +21,7 @@ Please note that some interactive graphs take a bit of time to load, thank you f
 
 These charts are all interactive. Mouse over an aspect of the chart to see more info, or if you are on mobile tap.
 # Total Cases 
-**1686 Infected (+31 change) | 58098 Tested (+1225 change) | 12 Deaths (+1 change)** 
+**1749 Infected (+63 change) | 58098 Tested (+1225 change) | 12 Deaths (+0 change)** 
 <br><br>
 
 <!--
@@ -120,7 +120,7 @@ ___
 
 <br><br>
 
-**Data last updated: 13:15 07 April 2020**
+**Data last updated: 15:52 08 April 2020**
 
 # Further Info
 ### N.B. Contact Info
