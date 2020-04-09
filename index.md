@@ -21,7 +21,7 @@ Please note that some interactive graphs take a bit of time to load, thank you f
 
 These charts are all interactive. Mouse over an aspect of the chart to see more info, or if you are on mobile tap.
 # Total Cases 
-**1749 Infected (+63 change) | 58098 Tested (+1225 change) | 12 Deaths (+0 change)** 
+**1845 Infected (+96 change) | 63776 Tested (+5678 change) | 18 Deaths (+5 change)** 
 <br><br>
 
 <!--
@@ -71,6 +71,8 @@ Note: You can hide/show the predicted curve by clicking on it in the legend.
 </div>
 [What “flattening the curve” means and why it’s so important.](https://sacoronavirus.co.za/2020/03/22/what-flattening-the-curve-means-and-why-its-so-important/) - COVID-19 Corona Virus South African Resource Portal
 
+<br>
+Note: As you can see an exponential curve does not accurately capture the trend of this data, thus a better predicted curve is being worked on.
 ### Date vs Cumulative No of Positive Cases Per Province
 Note: You can click on provinces in the legend to hide or show them on the graph.
 <div class="iframeDiv" align="center">
@@ -120,7 +122,7 @@ ___
 
 <br><br>
 
-**Data last updated: 15:52 08 April 2020**
+**Data last updated: 21:19 08 April 2020**
 
 # Further Info
 ### N.B. Contact Info

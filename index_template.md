@@ -71,6 +71,8 @@ Note: You can hide/show the predicted curve by clicking on it in the legend.
 </div>
 [What “flattening the curve” means and why it’s so important.](https://sacoronavirus.co.za/2020/03/22/what-flattening-the-curve-means-and-why-its-so-important/) - COVID-19 Corona Virus South African Resource Portal
 
+<br>
+Note: As you can see an exponential curve does not accurately capture the trend of this data, thus a better predicted curve is being worked on.
 ### Date vs Cumulative No of Positive Cases Per Province
 Note: You can click on provinces in the legend to hide or show them on the graph.
 <div class="iframeDiv" align="center">
