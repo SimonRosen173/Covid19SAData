@@ -10,17 +10,6 @@
     }
 </script>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-163414125-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-163414125-1');
-</script>
-
-
 **Note for mobile users: This site is not supported for mobile mode, please switch to desktop mode.**
 For info on how to do this, click [here](https://support.gpsgate.com/hc/en-us/articles/360021934034-Change-to-Desktop-mode-on-your-mobile-browser).
 
@@ -32,7 +21,7 @@ Please note that some interactive graphs take a bit of time to load, thank you f
 
 These charts are all interactive. Mouse over an aspect of the chart to see more info, or if you are on mobile tap.
 # Total Cases 
-**2028 Infected (+25 change) | 75053 Tested (+2025 change) | 25 Deaths (+1 change)** 
+**2 173 Infected (+145 change) | 80 085 Tested (+5 032 change) | 25 Deaths (+0 change)** 
 <br><br>
 
 <!--
@@ -130,7 +119,7 @@ ___
 
 <br><br>
 
-**Data last updated: 15:30 12 April 2020**
+**Data last updated: 20:43 12 April 2020**
 
 # Further Info
 ### N.B. Contact Info
