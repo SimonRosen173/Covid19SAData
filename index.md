@@ -16,12 +16,12 @@ For info on how to do this, click [here](https://support.gpsgate.com/hc/en-us/ar
 Please note that some interactive graphs take a bit of time to load, thank you for your patience. <br>
 
 # Updates
-* South Africa is currently in lockdown. Under the lockdown, South Africans will be required to stay at home from midnight on Thursday 26 March 2020, until midnight on Thursday 16 April 2020. [[Source]](https://www.sanews.gov.za/south-africa/coronavirus-sa-go-lockdown)
+* South African lockdown is extended by two weeks until midnight 30 April. [[Source]](https://www.sanews.gov.za/south-africa/nationwide-lockdown-extended-two-weeks)
 <br><br>
 
 These charts are all interactive. Mouse over an aspect of the chart to see more info, or if you are on mobile tap.
 # Total Cases 
-**2003 Infected (+69 change) | 73028 Tested (+4154 change) | 24 Deaths (+6 change)** 
+**2028 Infected (+25 change) | 75053 Tested (+2025 change) | 25 Deaths (+1 change)** 
 <br><br>
 
 <!--
@@ -65,14 +65,11 @@ ___
 </div>
 
 ### Date vs Cumulative No of Positive Cases
-Note: You can hide/show the predicted curve by clicking on it in the legend. 
+Note: You can hide/show the predicted curve by clicking on it in the legend. The graph will be rescaled accordingly. 
 <div class="iframeDiv" align="center">
     <iframe src="https://simonrosen173.github.io/Covid19SAData/date_vs_cases.html" frameborder="0" width="100%" height ="450px"></iframe>
 </div>
 [What “flattening the curve” means and why it’s so important.](https://sacoronavirus.co.za/2020/03/22/what-flattening-the-curve-means-and-why-its-so-important/) - COVID-19 Corona Virus South African Resource Portal
-
-<br>
-Note: As you can see an exponential curve does not accurately capture the trend of this data, thus a better predicted curve is being worked on.
 ### Date vs Cumulative No of Positive Cases Per Province
 Note: You can click on provinces in the legend to hide or show them on the graph.
 <div class="iframeDiv" align="center">
@@ -122,7 +119,7 @@ ___
 
 <br><br>
 
-**Data last updated: 19:25 10 April 2020**
+**Data last updated: 15:30 12 April 2020**
 
 # Further Info
 ### N.B. Contact Info
