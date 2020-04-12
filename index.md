@@ -10,6 +10,17 @@
     }
 </script>
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-163414125-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-163414125-1');
+</script>
+
+
 **Note for mobile users: This site is not supported for mobile mode, please switch to desktop mode.**
 For info on how to do this, click [here](https://support.gpsgate.com/hc/en-us/articles/360021934034-Change-to-Desktop-mode-on-your-mobile-browser).
 
