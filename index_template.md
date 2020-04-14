@@ -11,7 +11,10 @@
 </script>
 
 **Note for mobile users: This site is not supported for mobile mode, please switch to desktop mode.**
+&nbsp;(This will be fixed soon. Thanks for your patience!)
+<br><br>
 For info on how to do this, click [here](https://support.gpsgate.com/hc/en-us/articles/360021934034-Change-to-Desktop-mode-on-your-mobile-browser).
+<br>
 
 Please note that some interactive graphs take a bit of time to load, thank you for your patience. <br>
 
