@@ -23,8 +23,8 @@ Please note that some interactive graphs take a bit of time to load, thank you f
 <br><br>
 
 These charts are all interactive. Mouse over an aspect of the chart to see more info, or if you are on mobile tap.
-# Total Cases & Testing 
-**2 272 Infected (+99 change) | 83 663 Tested (+3 578 change)**
+# Total Cases & Tests
+**2 415 Infected (+143 change) | 87 022 Tested (+3 359 change)**
 <br><br>
 
 ___
@@ -35,10 +35,14 @@ ___
 </div>
 
 # Total Deaths & Recoveries
-**27 Deaths (+2 change) | 410 Recoveries (+0 change)** 
+**27 Deaths (+0 change) | 410 Recoveries (+0 change)** 
 <br><br>
 
 ___
+
+<div class="iframeDiv" align="center">
+    <iframe src="https://simonrosen173.github.io/Covid19SAData/tot_recovered_deaths.html" frameborder="0" width="100%" height ="400px"></iframe>
+</div>
 
 ### Total Deaths Per Province
 <div class="iframeDiv" align="center">
@@ -128,7 +132,7 @@ ___
 
 <br><br>
 
-**Data last updated: 09:31 14 April 2020**
+**Data last updated: 21:57 14 April 2020**
 
 # Further Info
 ### N.B. Contact Info

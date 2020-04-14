@@ -23,7 +23,7 @@ Please note that some interactive graphs take a bit of time to load, thank you f
 <br><br>
 
 These charts are all interactive. Mouse over an aspect of the chart to see more info, or if you are on mobile tap.
-# Total Cases & Testing 
+# Total Cases & Tests
 **{#tot_infected#} Infected (+{#change_infected#} change) | {#tot_tested#} Tested (+{#change_tested#} change)**
 <br><br>
 
@@ -39,6 +39,10 @@ ___
 <br><br>
 
 ___
+
+<div class="iframeDiv" align="center">
+    <iframe src="https://simonrosen173.github.io/Covid19SAData/tot_recovered_deaths.html" frameborder="0" width="100%" height ="400px"></iframe>
+</div>
 
 ### Total Deaths Per Province
 <div class="iframeDiv" align="center">
