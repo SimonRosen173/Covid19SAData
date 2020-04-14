@@ -20,21 +20,27 @@ Please note that some interactive graphs take a bit of time to load, thank you f
 <br><br>
 
 These charts are all interactive. Mouse over an aspect of the chart to see more info, or if you are on mobile tap.
-# Total Cases 
-**2 173 Infected (+145 change) | 80 085 Tested (+5 032 change) | 25 Deaths (+0 change)** 
+# Total Cases & Testing 
+**2 272 Infected (+99 change) | 83 663 Tested (+3 578 change)**
 <br><br>
 
-<!--
-"We must outrightly state that these numbers do not indicate a reduction in the number of infections. 
-It is merely a reflection of positive results that were received, verified and ready for today’s reporting."  - 28 March 2020 [SA Department of Health Twitter Statement](https://twitter.com/HealthZA/status/1243968569597181957)
--->
 ___
+
 ### Total Cases Per Province
 <div class="iframeDiv" align="center">
     <iframe src="https://simonrosen173.github.io/Covid19SAData/tot_cases_per_province.html" frameborder="0" width="100%" height ="400px"></iframe>
 </div>
 
-**Charts for total cases per gender, age and transmission type were removed as these numbers are no longer released by government.**
+# Total Deaths & Recoveries
+**27 Deaths (+2 change) | 410 Recoveries (+0 change)** 
+<br><br>
+
+___
+
+### Total Deaths Per Province
+<div class="iframeDiv" align="center">
+    <iframe src="https://simonrosen173.github.io/Covid19SAData/tot_deaths_per_province.html" frameborder="0" width="100%" height ="400px"></iframe>
+</div>
 
 <!--
 ### Total Cases Per Gender
@@ -119,7 +125,7 @@ ___
 
 <br><br>
 
-**Data last updated: 20:43 12 April 2020**
+**Data last updated: 09:31 14 April 2020**
 
 # Further Info
 ### N.B. Contact Info

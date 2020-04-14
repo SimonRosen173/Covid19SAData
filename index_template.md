@@ -20,21 +20,27 @@ Please note that some interactive graphs take a bit of time to load, thank you f
 <br><br>
 
 These charts are all interactive. Mouse over an aspect of the chart to see more info, or if you are on mobile tap.
-# Total Cases 
-**{#tot_infected#} Infected (+{#change_infected#} change) | {#tot_tested#} Tested (+{#change_tested#} change) | {#tot_deaths#} Deaths (+{#change_deaths#} change)** 
+# Total Cases & Testing 
+**{#tot_infected#} Infected (+{#change_infected#} change) | {#tot_tested#} Tested (+{#change_tested#} change)**
 <br><br>
 
-<!--
-"We must outrightly state that these numbers do not indicate a reduction in the number of infections. 
-It is merely a reflection of positive results that were received, verified and ready for today’s reporting."  - 28 March 2020 [SA Department of Health Twitter Statement](https://twitter.com/HealthZA/status/1243968569597181957)
--->
 ___
+
 ### Total Cases Per Province
 <div class="iframeDiv" align="center">
     <iframe src="https://simonrosen173.github.io/Covid19SAData/tot_cases_per_province.html" frameborder="0" width="100%" height ="400px"></iframe>
 </div>
 
-**Charts for total cases per gender, age and transmission type were removed as these numbers are no longer released by government.**
+# Total Deaths & Recoveries
+**{#tot_deaths#} Deaths (+{#change_deaths#} change) | {#tot_recoveries#} Recoveries (+{#change_recoveries#} change)** 
+<br><br>
+
+___
+
+### Total Deaths Per Province
+<div class="iframeDiv" align="center">
+    <iframe src="https://simonrosen173.github.io/Covid19SAData/tot_deaths_per_province.html" frameborder="0" width="100%" height ="400px"></iframe>
+</div>
 
 <!--
 ### Total Cases Per Gender

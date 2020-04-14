@@ -27,19 +27,23 @@ import pandas as pd
 import numpy as np
 
 gen_data = pd.read_csv('data/gen_data.csv')
-tot_infected = gen_data.tail(1).iloc[0]['tot_infected']
-change_infected = gen_data.tail(1).iloc[0]['change_infected']
+tot_infected = gen_data.iloc[0]['tot_infected']
+change_infected = gen_data.iloc[0]['change_infected']
 
-tot_tested = gen_data.tail(1).iloc[0]['tot_tested']
-change_tested = gen_data.tail(1).iloc[0]['change_tested']
+tot_tested = gen_data.iloc[0]['tot_tested']
+change_tested = gen_data.iloc[0]['change_tested']
 
-tot_deaths = gen_data.tail(1).iloc[0]['tot_deaths']
-change_deaths = gen_data.tail(1).iloc[0]['change_deaths']
+tot_deaths = gen_data.iloc[0]['tot_deaths']
+change_deaths = gen_data.iloc[0]['change_deaths']
+
+tot_recoveries = gen_data.iloc[0]['tot_recoveries']
+change_recoveries = gen_data.iloc[0]['change_recoveries']
 
 datetime_updated = gen_data.tail(1).iloc[0]['datetime_updated']
 
 varDict = dict(tot_infected=tot_infected, change_infected=change_infected, tot_deaths=tot_deaths,
                tot_tested=tot_tested, change_tested=change_tested, change_deaths=change_deaths,
+               tot_recoveries=tot_recoveries, change_recoveries=change_recoveries,
                datetime_updated=datetime_updated)
 
 # print(varDict)
