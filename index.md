@@ -24,41 +24,44 @@ Please note that some interactive graphs take a bit of time to load, thank you f
 
 These charts are all interactive. Mouse over an aspect of the chart to see more info, or if you are on mobile tap.
 # Total Cases & Tests
-**2 415 Infected (+143 change) | 87 022 Tested (+3 359 change)**
+**2 506 Infected (+91 change) | 90 515 Tested (+3 493 change)**
 <br><br>
 
 ___
 
 ### Total Cases Per Province
 <div class="iframeDiv" align="center">
-    <iframe src="https://simonrosen173.github.io/Covid19SAData/tot_cases_per_province.html" frameborder="0" width="100%" height ="400px"></iframe>
+    <iframe src="tot_cases_per_province.html" frameborder="0" width="100%" height ="400px"></iframe>
 </div>
 
 # Total Deaths & Recoveries
-**27 Deaths (+0 change) | 410 Recoveries (+0 change)** 
+**34 Deaths (+0 change) | 410 Recoveries (+0 change)** 
+<br>
+* The new deaths reported by government took place over a period of a few days. Thus, these new reported deaths are not accounted for in the change in deaths stat above.
 <br><br>
 
 ___
 
+### Total Deaths & Recoveries
 <div class="iframeDiv" align="center">
-    <iframe src="https://simonrosen173.github.io/Covid19SAData/tot_recovered_deaths.html" frameborder="0" width="100%" height ="400px"></iframe>
+    <iframe src="tot_recovered_deaths.html" frameborder="0" width="100%" height ="400px"></iframe>
 </div>
 
 ### Total Deaths Per Province
 <div class="iframeDiv" align="center">
-    <iframe src="https://simonrosen173.github.io/Covid19SAData/tot_deaths_per_province.html" frameborder="0" width="100%" height ="400px"></iframe>
+    <iframe src="tot_deaths_per_province.html" frameborder="0" width="100%" height ="400px"></iframe>
 </div>
 
 <!--
 ### Total Cases Per Gender
 <div class="iframeDiv" align="center">
-    <iframe src="https://simonrosen173.github.io/Covid19SAData/tot_cases_per_gender.html" frameborder="0" width="100%" height ="400px"></iframe>
+    <iframe src="tot_cases_per_gender.html" frameborder="0" width="100%" height ="400px"></iframe>
 </div>
 Last updated - 19:00 23 March 2020 (New data not released yet by gov.)
 
 ### Total Cases Per Transmission Type
 <div class="iframeDiv" align="center">
-    <iframe src="https://simonrosen173.github.io/Covid19SAData/tot_cases_per_travel.html" frameborder="0" width="100%" height ="400px"></iframe>
+    <iframe src="tot_cases_per_travel.html" frameborder="0" width="100%" height ="400px"></iframe>
 </div>
 Last updated - 19:00 23 March 2020 (New data not released yet by gov.)
 
@@ -80,35 +83,35 @@ ___
 ### Date vs Cumulative No of Positive Cases
 Note: You can hide/show the predicted curve by clicking on it in the legend. The graph will be rescaled accordingly. 
 <div class="iframeDiv" align="center">
-    <iframe src="https://simonrosen173.github.io/Covid19SAData/date_vs_cases.html" frameborder="0" width="100%" height ="450px"></iframe>
+    <iframe src="date_vs_cases.html" frameborder="0" width="100%" height ="450px"></iframe>
 </div>
 [What “flattening the curve” means and why it’s so important.](https://sacoronavirus.co.za/2020/03/22/what-flattening-the-curve-means-and-why-its-so-important/) - COVID-19 Corona Virus South African Resource Portal
 ### Date vs Cumulative No of Positive Cases Per Province
 Note: You can click on provinces in the legend to hide or show them on the graph.
 <div class="iframeDiv" align="center">
-    <iframe src="https://simonrosen173.github.io/Covid19SAData/date_vs_cases_per_province.html" frameborder="0" width="100%" height ="450px"></iframe>
+    <iframe src="date_vs_cases_per_province.html" frameborder="0" width="100%" height ="450px"></iframe>
 </div>
 
 ## Daily
 ### Date vs No of Positive Cases Per Day
 <div class="iframeDiv" align="center">
-    <iframe src="https://simonrosen173.github.io/Covid19SAData/date_vs_daily_cases.html" frameborder="0" width="100%" height ="450px"></iframe>
+    <iframe src="date_vs_daily_cases.html" frameborder="0" width="100%" height ="450px"></iframe>
 </div>
 
 ### Date vs No of Tests Per Day
 <div class="iframeDiv" align="center">
-    <iframe src="https://simonrosen173.github.io/Covid19SAData/date_vs_daily_tests.html" frameborder="0" width="100%" height ="450px"></iframe>
+    <iframe src="date_vs_daily_tests.html" frameborder="0" width="100%" height ="450px"></iframe>
 </div>
 Note, the data contained in this figure was obtained by calculating the difference between the daily 'total tested' statistics released by governement. As such this data may not directly correspond to the amount of tests actually conducted each day. 
 
 ### Date vs No of Positive Cases & Tests Per Day
 <div class="iframeDiv" align="center">
-    <iframe src="https://simonrosen173.github.io/Covid19SAData/date_vs_daily_tests_cases.html" frameborder="0" width="100%" height ="450px"></iframe>
+    <iframe src="date_vs_daily_tests_cases.html" frameborder="0" width="100%" height ="450px"></iframe>
 </div>
 
 ### Date vs No of Positive Cases Per Day Per Province
 <div class="iframeDiv" align="center">
-    <iframe src="https://simonrosen173.github.io/Covid19SAData/date_vs_daily_cases_per_province.html" frameborder="0" width="100%" height ="450px"></iframe>
+    <iframe src="date_vs_daily_cases_per_province.html" frameborder="0" width="100%" height ="450px"></iframe>
 </div>
 <br><br>
 
@@ -117,22 +120,22 @@ ___
 ## Cumulative
 ### Date vs Cumulative No of Recoveries & Deaths
 <div class="iframeDiv" align="center">
-    <iframe src="https://simonrosen173.github.io/Covid19SAData/cumulative_deaths_recovered.html" frameborder="0" width="100%" height ="450px"></iframe>
+    <iframe src="cumulative_deaths_recovered.html" frameborder="0" width="100%" height ="450px"></iframe>
 </div>
 
 ### Date vs Cumulative No of Recoveries
 <div class="iframeDiv" align="center">
-    <iframe src="https://simonrosen173.github.io/Covid19SAData/cumulative_recovered.html" frameborder="0" width="100%" height ="450px"></iframe>
+    <iframe src="cumulative_recovered.html" frameborder="0" width="100%" height ="450px"></iframe>
 </div>
 
 ### Date vs Cumulative No of Deaths
 <div class="iframeDiv" align="center">
-    <iframe src="https://simonrosen173.github.io/Covid19SAData/cumulative_deaths.html" frameborder="0" width="100%" height ="450px"></iframe>
+    <iframe src="cumulative_deaths.html" frameborder="0" width="100%" height ="450px"></iframe>
 </div>
 
 <br><br>
 
-**Data last updated: 21:57 14 April 2020**
+**Data last updated: 21:59 15 April 2020**
 
 # Further Info
 ### N.B. Contact Info

@@ -36,6 +36,7 @@ date,province,cumulative_cases,daily_cases
 2020-04-12,Eastern Cape,88.0,19.0
 2020-04-13,Eastern Cape,104.0,16.0
 2020-04-14,Eastern Cape,174.0,70.0
+2020-04-15,Eastern Cape,199.0,25.0
 2020-03-05,Free State,0.0,0.0
 2020-03-07,Free State,0.0,0.0
 2020-03-08,Free State,0.0,0.0
@@ -73,6 +74,7 @@ date,province,cumulative_cases,daily_cases
 2020-04-12,Free State,96.0,2.0
 2020-04-13,Free State,96.0,0.0
 2020-04-14,Free State,98.0,2.0
+2020-04-15,Free State,97.0,-1.0
 2020-03-05,Gauteng,0.0,0.0
 2020-03-07,Gauteng,1.0,1.0
 2020-03-08,Gauteng,1.0,0.0
@@ -110,6 +112,7 @@ date,province,cumulative_cases,daily_cases
 2020-04-12,Gauteng,865.0,52.0
 2020-04-13,Gauteng,890.0,25.0
 2020-04-14,Gauteng,909.0,19.0
+2020-04-15,Gauteng,930.0,21.0
 2020-03-05,KwaZula-Natal,1.0,1.0
 2020-03-07,KwaZula-Natal,1.0,0.0
 2020-03-08,KwaZula-Natal,2.0,1.0
@@ -147,6 +150,7 @@ date,province,cumulative_cases,daily_cases
 2020-04-12,KwaZula-Natal,443.0,25.0
 2020-04-13,KwaZula-Natal,465.0,22.0
 2020-04-14,KwaZula-Natal,489.0,24.0
+2020-04-15,KwaZula-Natal,519.0,30.0
 2020-03-05,Limpopo,0.0,0.0
 2020-03-07,Limpopo,0.0,0.0
 2020-03-08,Limpopo,0.0,0.0
@@ -184,6 +188,7 @@ date,province,cumulative_cases,daily_cases
 2020-04-12,Limpopo,23.0,0.0
 2020-04-13,Limpopo,23.0,0.0
 2020-04-14,Limpopo,24.0,1.0
+2020-04-15,Limpopo,25.0,1.0
 2020-03-05,Mpumalanga,0.0,0.0
 2020-03-07,Mpumalanga,0.0,0.0
 2020-03-08,Mpumalanga,0.0,0.0
@@ -221,6 +226,7 @@ date,province,cumulative_cases,daily_cases
 2020-04-12,Mpumalanga,21.0,1.0
 2020-04-13,Mpumalanga,22.0,1.0
 2020-04-14,Mpumalanga,22.0,0.0
+2020-04-15,Mpumalanga,22.0,0.0
 2020-03-05,Northern Cape,0.0,0.0
 2020-03-07,Northern Cape,0.0,0.0
 2020-03-08,Northern Cape,0.0,0.0
@@ -258,6 +264,7 @@ date,province,cumulative_cases,daily_cases
 2020-04-12,Northern Cape,16.0,0.0
 2020-04-13,Northern Cape,16.0,0.0
 2020-04-14,Northern Cape,16.0,0.0
+2020-04-15,Northern Cape,16.0,0.0
 2020-03-05,North West,0.0,0.0
 2020-03-07,North West,0.0,0.0
 2020-03-08,North West,0.0,0.0
@@ -295,6 +302,7 @@ date,province,cumulative_cases,daily_cases
 2020-04-12,North West,19.0,0.0
 2020-04-13,North West,22.0,3.0
 2020-04-14,North West,22.0,0.0
+2020-04-15,North West,23.0,1.0
 2020-03-05,Western Cape,0.0,0.0
 2020-03-07,Western Cape,0.0,0.0
 2020-03-08,Western Cape,0.0,0.0
@@ -332,6 +340,7 @@ date,province,cumulative_cases,daily_cases
 2020-04-12,Western Cape,587.0,41.0
 2020-04-13,Western Cape,617.0,30.0
 2020-04-14,Western Cape,643.0,26.0
+2020-04-15,Western Cape,657.0,14.0
 2020-03-05,Unknown,0.0,0.0
 2020-03-07,Unknown,0.0,0.0
 2020-03-08,Unknown,0.0,0.0
@@ -369,3 +378,4 @@ date,province,cumulative_cases,daily_cases
 2020-04-12,Unknown,15.0,5.0
 2020-04-13,Unknown,17.0,2.0
 2020-04-14,Unknown,18.0,1.0
+2020-04-15,Unknown,18.0,0.0
