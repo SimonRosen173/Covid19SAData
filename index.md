@@ -1,22 +1,13 @@
 
-<!-- Hopefully should remove issue where on mobile div flashes blue. Maybe? -->
-<script type="text/css">
-    .iframeDiv {
-        user-select: none; /* supported by Chrome and Opera */
-       -webkit-user-select: none; /* Safari */
-       -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Firefox */
-       -ms-user-select: none; /* Internet Explorer/Edge */
-    }
-</script>
-
-**Note for mobile users: This site is not supported for mobile mode, please switch to desktop mode.**
+<!--**Note for mobile users: This site is not supported for mobile mode, please switch to desktop mode.**
 &nbsp;(This will be fixed soon. Thanks for your patience!)
 <br><br>
 For info on how to do this, click [here](https://support.gpsgate.com/hc/en-us/articles/360021934034-Change-to-Desktop-mode-on-your-mobile-browser).
-<br>
+<br>-->
 
-Please note that some interactive graphs take a bit of time to load, thank you for your patience. <br>
+**This website is now supported on mobile mode.**
+
+Please note that some interactive graphs take a bit of time to load, thank you for your patience.
 
 # Updates
 * South African lockdown is extended by two weeks until midnight 30 April. [[Source]](https://www.sanews.gov.za/south-africa/nationwide-lockdown-extended-two-weeks)
@@ -31,8 +22,9 @@ ___
 
 ### Total Cases Per Province
 <div class="iframeDiv" align="center">
-    <iframe src="tot_cases_per_province.html" frameborder="0" width="100%" height ="400px"></iframe>
+    <iframe class="pieChart" src="tot_cases_per_province.html" frameborder="0" width="100%" height ="400px"></iframe>
 </div>
+<br>
 
 # Total Deaths & Recoveries
 **34 Deaths (+0 change) | 410 Recoveries (+0 change)** 
@@ -44,12 +36,12 @@ ___
 
 ### Total Deaths & Recoveries
 <div class="iframeDiv" align="center">
-    <iframe src="tot_recovered_deaths.html" frameborder="0" width="100%" height ="400px"></iframe>
+    <iframe class="pieChart" src="tot_recovered_deaths.html" frameborder="0" width="100%" height ="400px"></iframe>
 </div>
 
 ### Total Deaths Per Province
 <div class="iframeDiv" align="center">
-    <iframe src="tot_deaths_per_province.html" frameborder="0" width="100%" height ="400px"></iframe>
+    <iframe class="pieChart" src="tot_deaths_per_province.html" frameborder="0" width="100%" height ="400px"></iframe>
 </div>
 
 <!--
@@ -71,6 +63,7 @@ Last updated - 19:00 23 March 2020 (New data not released yet by gov.)
 </div>
 Last updated - 19:00 23 March 2020 (New data not released yet by gov.)
 -->
+<br>
 
 # Testing & Cases Over Time
 ___
@@ -86,11 +79,13 @@ Note: You can hide/show the predicted curve by clicking on it in the legend. The
     <iframe src="date_vs_cases.html" frameborder="0" width="100%" height ="450px"></iframe>
 </div>
 [What “flattening the curve” means and why it’s so important.](https://sacoronavirus.co.za/2020/03/22/what-flattening-the-curve-means-and-why-its-so-important/) - COVID-19 Corona Virus South African Resource Portal
+
 ### Date vs Cumulative No of Positive Cases Per Province
 Note: You can click on provinces in the legend to hide or show them on the graph.
 <div class="iframeDiv" align="center">
     <iframe src="date_vs_cases_per_province.html" frameborder="0" width="100%" height ="450px"></iframe>
 </div>
+UNK - Unkown
 
 ## Daily
 ### Date vs No of Positive Cases Per Day
@@ -113,7 +108,8 @@ Note, the data contained in this figure was obtained by calculating the differen
 <div class="iframeDiv" align="center">
     <iframe src="date_vs_daily_cases_per_province.html" frameborder="0" width="100%" height ="450px"></iframe>
 </div>
-<br><br>
+UNK - Unkown
+<br>
 
 # Recoveries And Deaths Over Time
 ___
@@ -132,10 +128,8 @@ ___
 <div class="iframeDiv" align="center">
     <iframe src="cumulative_deaths.html" frameborder="0" width="100%" height ="450px"></iframe>
 </div>
-
-<br><br>
-
-**Data last updated: 21:59 15 April 2020**
+<br>
+**Data last updated: 14:32 16 April 2020**
 
 # Further Info
 ### N.B. Contact Info
