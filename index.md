@@ -67,7 +67,7 @@ Last updated - 19:00 23 March 2020 (New data not released yet by gov.)
 
 ### Total Cases Per Age Group
 <div class="iframeDiv" align="center">
-    <iframe src="https://simonrosen173.github.io/Covid19SAData/tot_cases_per_age.html" frameborder="0" width="100%" height ="400px"></iframe>
+    <iframe src="tot_cases_per_age.html" frameborder="0" width="100%" height ="400px"></iframe>
 </div>
 Last updated - 19:00 23 March 2020 (New data not released yet by gov.)
 -->
@@ -77,7 +77,7 @@ ___
 ## Cumulative
 ### Date vs Cumulative No of Tests & Positive Cases 
 <div class="iframeDiv" align="center">
-    <iframe src="https://simonrosen173.github.io/Covid19SAData/date_vs_cases_tests.html" frameborder="0" width="100%" height ="450px"></iframe>
+    <iframe src="date_vs_cases_tests.html" frameborder="0" width="100%" height ="450px"></iframe>
 </div>
 
 ### Date vs Cumulative No of Positive Cases
