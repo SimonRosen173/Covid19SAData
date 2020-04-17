@@ -15,7 +15,7 @@ Please note that some interactive graphs take a bit of time to load, thank you f
 
 These charts are all interactive. Mouse over an aspect of the chart to see more info, or if you are on mobile tap.
 # Total Cases & Tests
-**2 506 Infected (+91 change) | 90 515 Tested (+3 493 change)**
+**2 605 Infected (+99 change) | 95 060 Tested (+4 545 change)**
 <br><br>
 
 ___
@@ -27,7 +27,7 @@ ___
 <br>
 
 # Total Deaths & Recoveries
-**34 Deaths (+0 change) | 410 Recoveries (+0 change)** 
+**48 Deaths (+14 change) | 903 Recoveries (+493 change)** 
 <br>
 * The new deaths reported by government took place over a period of a few days. Thus, these new reported deaths are not accounted for in the change in deaths stat above.
 <br><br>
@@ -105,6 +105,7 @@ Note, the data contained in this figure was obtained by calculating the differen
 </div>
 
 ### Date vs No of Positive Cases Per Day Per Province
+Note: You can click on provinces in the legend to hide or show them on the graph.
 <div class="iframeDiv" align="center">
     <iframe src="date_vs_daily_cases_per_province.html" frameborder="0" width="100%" height ="450px"></iframe>
 </div>
@@ -129,7 +130,7 @@ ___
     <iframe src="cumulative_deaths.html" frameborder="0" width="100%" height ="450px"></iframe>
 </div>
 <br>
-**Data last updated: 14:32 16 April 2020**
+**Data last updated: 09:41 17 April 2020**
 
 # Further Info
 ### N.B. Contact Info

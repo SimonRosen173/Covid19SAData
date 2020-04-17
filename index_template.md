@@ -105,6 +105,7 @@ Note, the data contained in this figure was obtained by calculating the differen
 </div>
 
 ### Date vs No of Positive Cases Per Day Per Province
+Note: You can click on provinces in the legend to hide or show them on the graph.
 <div class="iframeDiv" align="center">
     <iframe src="date_vs_daily_cases_per_province.html" frameborder="0" width="100%" height ="450px"></iframe>
 </div>
