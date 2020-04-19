@@ -7,8 +7,7 @@ For info on how to do this, click [here](https://support.gpsgate.com/hc/en-us/ar
 
 **This website is now supported on mobile mode.**
 
-**Please note that some interactive graphs take a bit of time to load, thank you for your patience.** <br>
-I will be working on speeding up page loads for all browsers but currently Chrome is the fastest way to view this site.
+**Please note that some interactive graphs take a bit of time to load, thank you for your patience.** 
 
 # Updates
 * South African lockdown is extended by two weeks until midnight 30 April. [[Source]](https://www.sanews.gov.za/south-africa/nationwide-lockdown-extended-two-weeks)
