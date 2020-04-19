@@ -167,8 +167,10 @@ iframe {
 }
 
 .pieChart{
+  height:400px;
+
   @include small { // Phone
-    height: 300px;
+    height: 300px; // Overwrite default height
     //height: 100px;
   }
 }
