@@ -16,7 +16,7 @@ I will be working on speeding up page loads for all browsers but currently Chrom
 
 These charts are all interactive. Mouse over an aspect of the chart to see more info, or if you are on mobile tap.
 # Total Cases & Tests
-**2 783 Infected (+178 change) | 100 827 Tested (+5 767 change)**
+**3 034 Infected (+251 change) | 108 201 Tested (+7 374 change)**
 <br><br>
 
 ___
@@ -28,7 +28,7 @@ ___
 <br>
 
 # Total Deaths & Recoveries
-**50 Deaths (+2 change) | 903 Recoveries (+0 change)** 
+**50 Deaths (+0 change) | 903 Recoveries (+0 change)** 
 <br>
 * The new deaths reported by government took place over a period of a few days. Thus, these new reported deaths are not accounted for in the change in deaths stat above.
 <br><br>
@@ -131,7 +131,7 @@ ___
     <iframe src="cumulative_deaths.html" frameborder="0" width="100%" height ="450px"></iframe>
 </div>
 <br>
-**Data last updated: 11:18 18 April 2020**
+**Data last updated: 13:42 19 April 2020**
 
 # Further Info
 ### N.B. Contact Info
