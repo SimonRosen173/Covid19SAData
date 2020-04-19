@@ -23,7 +23,8 @@ ___
 
 ### Total Cases Per Province
 <div class="iframeDiv" align="center">
-    <iframe class="pieChart" src="tot_cases_per_province.html" frameborder="0" width="100%" height ="400px"></iframe>
+    <!--<iframe class="pieChart" src="tot_cases_per_province.html" frameborder="0" width="100%" height ="400px"></iframe>-->
+    <iframe class="lazy pieChart" data-src="tot_cases_per_province.html" frameborder="0"></iframe>
 </div>
 <br>
 
@@ -37,30 +38,30 @@ ___
 
 ### Total Deaths & Recoveries
 <div class="iframeDiv" align="center">
-    <iframe class="pieChart" src="tot_recovered_deaths.html" frameborder="0" width="100%" height ="400px"></iframe>
+    <iframe class="lazy pieChart" data-src="tot_recovered_deaths.html" frameborder="0" width="100%" height ="400px"></iframe>
 </div>
 
 ### Total Deaths Per Province
 <div class="iframeDiv" align="center">
-    <iframe class="pieChart" src="tot_deaths_per_province.html" frameborder="0" width="100%" height ="400px"></iframe>
+    <iframe class="lazy pieChart" data-src="tot_deaths_per_province.html" frameborder="0" width="100%" height ="400px"></iframe>
 </div>
 
 <!--
 ### Total Cases Per Gender
 <div class="iframeDiv" align="center">
-    <iframe src="tot_cases_per_gender.html" frameborder="0" width="100%" height ="400px"></iframe>
+    <iframe class="lazy" data-src="tot_cases_per_gender.html" frameborder="0" width="100%" height ="400px"></iframe>
 </div>
 Last updated - 19:00 23 March 2020 (New data not released yet by gov.)
 
 ### Total Cases Per Transmission Type
 <div class="iframeDiv" align="center">
-    <iframe src="tot_cases_per_travel.html" frameborder="0" width="100%" height ="400px"></iframe>
+    <iframe class="lazy" data-src="tot_cases_per_travel.html" frameborder="0" width="100%" height ="400px"></iframe>
 </div>
 Last updated - 19:00 23 March 2020 (New data not released yet by gov.)
 
 ### Total Cases Per Age Group
 <div class="iframeDiv" align="center">
-    <iframe src="tot_cases_per_age.html" frameborder="0" width="100%" height ="400px"></iframe>
+    <iframe class="lazy" data-src="tot_cases_per_age.html" frameborder="0" width="100%" height ="400px"></iframe>
 </div>
 Last updated - 19:00 23 March 2020 (New data not released yet by gov.)
 -->
@@ -71,44 +72,44 @@ ___
 ## Cumulative
 ### Date vs Cumulative No of Tests & Positive Cases 
 <div class="iframeDiv" align="center">
-    <iframe src="date_vs_cases_tests.html" frameborder="0" width="100%" height ="450px"></iframe>
+    <iframe class="lazy" data-src="date_vs_cases_tests.html" frameborder="0" width="100%" height ="450px"></iframe>
 </div>
 
 ### Date vs Cumulative No of Positive Cases
 Note: You can hide/show the predicted curve by clicking on it in the legend. The graph will be rescaled accordingly. 
 <div class="iframeDiv" align="center">
-    <iframe src="date_vs_cases.html" frameborder="0" width="100%" height ="450px"></iframe>
+    <iframe class="lazy" data-src="date_vs_cases.html" frameborder="0" width="100%" height ="450px"></iframe>
 </div>
 [What “flattening the curve” means and why it’s so important.](https://sacoronavirus.co.za/2020/03/22/what-flattening-the-curve-means-and-why-its-so-important/) - COVID-19 Corona Virus South African Resource Portal
 
 ### Date vs Cumulative No of Positive Cases Per Province
 Note: You can click on provinces in the legend to hide or show them on the graph.
 <div class="iframeDiv" align="center">
-    <iframe src="date_vs_cases_per_province.html" frameborder="0" width="100%" height ="450px"></iframe>
+    <iframe class="lazy" data-src="date_vs_cases_per_province.html" frameborder="0" width="100%" height ="450px"></iframe>
 </div>
 UNK - Unkown
 
 ## Daily
 ### Date vs No of Positive Cases Per Day
 <div class="iframeDiv" align="center">
-    <iframe src="date_vs_daily_cases.html" frameborder="0" width="100%" height ="450px"></iframe>
+    <iframe class="lazy" data-src="date_vs_daily_cases.html" frameborder="0" width="100%" height ="450px"></iframe>
 </div>
 
 ### Date vs No of Tests Per Day
 <div class="iframeDiv" align="center">
-    <iframe src="date_vs_daily_tests.html" frameborder="0" width="100%" height ="450px"></iframe>
+    <iframe class="lazy" data-src="date_vs_daily_tests.html" frameborder="0" width="100%" height ="450px"></iframe>
 </div>
 Note, the data contained in this figure was obtained by calculating the difference between the daily 'total tested' statistics released by governement. As such this data may not directly correspond to the amount of tests actually conducted each day. 
 
 ### Date vs No of Positive Cases & Tests Per Day
 <div class="iframeDiv" align="center">
-    <iframe src="date_vs_daily_tests_cases.html" frameborder="0" width="100%" height ="450px"></iframe>
+    <iframe class="lazy" data-src="date_vs_daily_tests_cases.html" frameborder="0" width="100%" height ="450px"></iframe>
 </div>
 
 ### Date vs No of Positive Cases Per Day Per Province
 Note: You can click on provinces in the legend to hide or show them on the graph.
 <div class="iframeDiv" align="center">
-    <iframe src="date_vs_daily_cases_per_province.html" frameborder="0" width="100%" height ="450px"></iframe>
+    <iframe class="lazy" data-src="date_vs_daily_cases_per_province.html" frameborder="0" width="100%" height ="450px"></iframe>
 </div>
 UNK - Unkown
 <br>
@@ -118,17 +119,17 @@ ___
 ## Cumulative
 ### Date vs Cumulative No of Recoveries & Deaths
 <div class="iframeDiv" align="center">
-    <iframe src="cumulative_deaths_recovered.html" frameborder="0" width="100%" height ="450px"></iframe>
+    <iframe class="lazy" data-src="cumulative_deaths_recovered.html" frameborder="0" width="100%" height ="450px"></iframe>
 </div>
 
 ### Date vs Cumulative No of Recoveries
 <div class="iframeDiv" align="center">
-    <iframe src="cumulative_recovered.html" frameborder="0" width="100%" height ="450px"></iframe>
+    <iframe class="lazy" data-src="cumulative_recovered.html" frameborder="0" width="100%" height ="450px"></iframe>
 </div>
 
 ### Date vs Cumulative No of Deaths
 <div class="iframeDiv" align="center">
-    <iframe src="cumulative_deaths.html" frameborder="0" width="100%" height ="450px"></iframe>
+    <iframe class="lazy" data-src="cumulative_deaths.html" frameborder="0" width="100%" height ="450px"></iframe>
 </div>
 <br>
 **Data last updated: 13:42 19 April 2020**
