@@ -28,8 +28,6 @@ ___
 
 # Total Deaths & Recoveries
 **{#tot_deaths#} Deaths (+{#change_deaths#} change) | {#tot_recoveries#} Recoveries (+{#change_recoveries#} change)** 
-<br>
-* The new deaths reported by government took place over a period of a few days. Thus, these new reported deaths are not accounted for in the change in deaths stat above.
 <br><br>
 
 ___
