@@ -24,7 +24,6 @@ ___
 <div class="iframeDiv" align="center">
     <iframe class="lazy pieChart" data-src="tot_cases_per_province.html" frameborder="0"></iframe>
 </div>
-<br>
 
 # Total Deaths & Recoveries
 **{#tot_deaths#} Deaths (+{#change_deaths#} change) | {#tot_recoveries#} Recoveries (+{#change_recoveries#} change)** 
@@ -42,7 +41,10 @@ ___
     <iframe class="lazy pieChart" data-src="tot_deaths_per_province.html" frameborder="0"></iframe>
 </div>
 
-<br>
+### Total Recoveries Per Province
+<div class="iframeDiv" align="center">
+    <iframe class="lazy pieChart" data-src="tot_recovered_per_province.html" frameborder="0"></iframe>
+</div>
 
 # Testing & Cases Over Time
 ___
