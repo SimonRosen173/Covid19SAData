@@ -1,9 +1,10 @@
 # Covid19 SA Data
 Website to show data visualisations pertaining to current coronavirus outbreak in South Africa.
+___
 
 **Note: I manually recreate the graphs and ensure the data is correct, thus the website may take a bit of time to update after data is officially released.**
 
-## Parts of Repo
+# Parts of Repo
 The repo currently consists of the following parts:
   - Jekyll related files to control styling of site.
     - These folders are the ones preceded by '_'
@@ -24,24 +25,37 @@ The repo currently consists of the following parts:
     - NICD daily updates in image form taken from their twitter.
     - Note that this folder is severely outdated.
     
-Folders not currently in use:
-  - Docs
-  - notebooks
+# Upcomming Features
+## Backend
+  - Automatically get data from NICD infographics using [Tesseract](https://opensource.google/projects/tesseract), specifically using the python wrapper [pytesseract](https://github.com/madmaze/pytesseract).
+  - Automatically download NICD infographics from Twitter using the Twitter api specifically using the Python wrapper [tweepy](https://github.com/tweepy/tweepy).
+    - Note: This is dependant on if my application for a Twitter developer account is succesful as this is required to use their api.
+    
+## Front End 
+### Site Layout
+- Split site into multiple pages for better usability and smaller download sizes. I.e. page for provinces and then a page for each province.
+### Graphs/Charts
+- Make better use of hide trace functionality of Plotly.
+  - I.e. instead of seperate graphs for tests and confirmed over time use a single graph containing both and stress the use of clicking on the legend to hide the ones you don't wish to see. 
+- Add active cases to confirmed cases and tests graphs.
+- Deaths per province over time graph.
+- Recoveries per province pie chart.
+- Replace totals per province charts with choropleth maps. (Potentially)
 
-## Acknowledgements
-### Libraries Used
+# Acknowledgements
+## Libraries Used
  - [lazyload by Verlok](https://github.com/verlok/lazyload)
     - Lazy loading of images
  - [spam-referrals-blocker by MohamedBassem](https://github.com/MohamedBassem/spam-referrals-blocker)
     - Exclude known bots from Google Analytics
  - [plotly.py by plotly](https://github.com/plotly/plotly.py)
     - Graphing library used
-### Data
+## Data
 Original data taken from the following sources:
  - DSFSI research group at the University of Pretoria's repository at [Coronavirus COVID-19 (2019-nCoV) Data Repository for South Africa](https://github.com/dsfsi/covid19za).
  - [NICD Twitter](https://twitter.com/nicd_sa)
  - [COVID-19 Corona Virus South African Resource Portal](https://sacoronavirus.co.za/)
 
 
-### License
+## License
 Data [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
