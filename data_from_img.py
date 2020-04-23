@@ -56,6 +56,8 @@ date_coords=[557, 210 , 116, 45]
 def get_tot_data(img_path):
     img_cv = cv2.imread(img_path)
     orig_img = cv2.cvtColor(img_cv, cv2.COLOR_BGR2RGB)
+    dimensions = (1280, 905)
+    orig_img = cv2.resize(orig_img, dimensions)
 
     # pre-processing
     img_arr = np.array(orig_img)
@@ -90,6 +92,7 @@ def get_tot_data(img_path):
 
     date = no_from_img(date_coords)
 
+    print("Date done")
     prov_deaths_totals = dict()
     prov_recovered_totals = dict()
     prov_confirmed_totals = dict()
@@ -98,13 +101,22 @@ def get_tot_data(img_path):
         amount = no_from_img(prov_death_coords[coords], True)
         prov_deaths_totals[coords.upper()] = amount
 
+    print("prov_death_totals done")
+
     for coords in prov_recovered_coords:
         amount = no_from_img(prov_recovered_coords[coords], True)
         prov_recovered_totals[coords.upper()] = amount
 
-    for coords in prov_confirmed_coords:
-        amount = no_from_img(prov_confirmed_coords[coords], True)
-        prov_confirmed_totals[coords.upper()] = amount
+    print("prov_recovered_totals done")
+
+    # for coords in prov_confirmed_coords:
+    #     amount = no_from_img(prov_confirmed_coords[coords], True)
+    #     prov_confirmed_totals[coords.upper()] = amount
+    #     print(coords.upper() + " done")
+
+    # print("")
+    #
+    # print("prov_confirmed_totals done")
 
     gen_totals = dict(
         unknown=no_from_img(gen_tot_coords['unknown']),
@@ -114,8 +126,11 @@ def get_tot_data(img_path):
 
     )
 
-    return date, prov_deaths_totals, prov_recovered_totals, prov_confirmed_totals, gen_totals
+    print("gen_totals done")
 
+    return date, prov_deaths_totals, prov_recovered_totals, gen_totals
+
+# prov_confirmed_totals
 
 # img_path = "NICD_updates/NICD_Updates_04_21.jpg"
 # date, prov_deaths_totals, prov_recovered_totals, prov_confirmed_totals, gen_totals = get_tot_data(img_path)
