@@ -23,17 +23,23 @@ The repo currently consists of the following parts:
     - csv files that are used to generate graphs and data for site.
   - NICD updates
     - NICD daily updates in image form taken from their twitter.
-    - Note that this folder is severely outdated.
+    - Note that this folder does not contain all the updates.
+  - data_from_img.py
+    - Python code to use computer vision along with the associated preprocessing ([pytesseract](https://github.com/madmaze/pytesseract) & OpenCV) to automatically get data from the NICD twitter update infographics.
+    - This is an overengineered solution to a simple problem (getting latest data) that is not 100% accurate in its output. None the less it is a fun and informative intro to computer vision for a real world scenario.
     
 # Upcomming Features
 ## Backend
-  - Automatically get data from NICD infographics using [Tesseract](https://opensource.google/projects/tesseract), specifically using the python wrapper [pytesseract](https://github.com/madmaze/pytesseract).
-  - Automatically download NICD infographics from Twitter using the Twitter api specifically using the Python wrapper [tweepy](https://github.com/tweepy/tweepy).
-    - Note: This is dependant on if my application for a Twitter developer account is succesful as this is required to use their api.
+  - Consolidate Jupyter notebooks code from preprocessing data and visualisations into single callable Pythpn file.
+    - Will make updating data on site much easier and could potentially be triggered by updates to the [DSFSI research group repo](https://github.com/dsfsi/covid19za).
+
+## Misc
+  - Jupyter notebook to show process of preprocessing image and extracting text data from NICD infographics.
     
 ## Front End 
 ### Site Layout
 - Split site into multiple pages for better usability and smaller download sizes. I.e. page for provinces and then a page for each province.
+- Data per district for each province. This will first be Gauteng, then Western Cape, then Kwa-Zulu Natal and from there it is undecided.
 ### Graphs/Charts
 - Make better use of hide trace functionality of Plotly.
   - I.e. instead of seperate graphs for tests and confirmed over time use a single graph containing both and stress the use of clicking on the legend to hide the ones you don't wish to see. 
@@ -50,6 +56,8 @@ The repo currently consists of the following parts:
     - Exclude known bots from Google Analytics
  - [plotly.py by plotly](https://github.com/plotly/plotly.py)
     - Graphing library used
+ - [pytesseract](https://github.com/madmaze/pytesseract)
+    - Python wrapper for Tesseract. Uses deep learning to extract text from an image.
 ## Data
 Original data taken from the following sources:
  - DSFSI research group at the University of Pretoria's repository at [Coronavirus COVID-19 (2019-nCoV) Data Repository for South Africa](https://github.com/dsfsi/covid19za).
