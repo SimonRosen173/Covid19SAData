@@ -111,7 +111,8 @@ ___
     <iframe class="lazy" data-src="cumulative_deaths.html" frameborder="0"></iframe>
 </div>
 <br>
-**Data last updated: {#datetime_updated#}**
+**Data last updated: {#datetime_updated#}**<br>
+The delay in updating the data was due to technical problems on my side.
 
 # Further Info
 ### N.B. Contact Info

@@ -1,10 +1,11 @@
-date,province,deaths
-25-04-2020,Eastern Cape,10
-25-04-2020,Free State,5
-25-04-2020,Gauteng,8
-25-04-2020,KwaZula-Natal,29
-25-04-2020,Limpopo,2
-25-04-2020,Mpumalanga,0
-25-04-2020,North West,0
-25-04-2020,Northern Cape,0
-25-04-2020,Western Cape,32
+province,tot_deaths
+Eastern Cape,10
+Free State,5
+Gauteng,8
+KwaZula-Natal,30
+Limpopo,2
+Mpumalanga,0
+Northern Cape,0
+North West,0
+Western Cape,35
+Unknown,0
