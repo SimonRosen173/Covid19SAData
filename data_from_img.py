@@ -53,7 +53,7 @@ gen_tot_coords = dict(
 date_coords=[557, 210 , 116, 45]
 
 
-def get_tot_data(img_path):
+def get_tot_data(img_path, load_deaths=False, load_recovered=False, load_gen_total=False):
     img_cv = cv2.imread(img_path)
     orig_img = cv2.cvtColor(img_cv, cv2.COLOR_BGR2RGB)
     dimensions = (1280, 905)
@@ -92,22 +92,24 @@ def get_tot_data(img_path):
 
     date = no_from_img(date_coords)
 
-    print("Date done")
+    print("Date done - " + date)
     prov_deaths_totals = dict()
     prov_recovered_totals = dict()
-    prov_confirmed_totals = dict()
+    # prov_confirmed_totals = dict()
 
-    for coords in prov_death_coords:
-        amount = no_from_img(prov_death_coords[coords], True)
-        prov_deaths_totals[coords.upper()] = amount
+    if load_deaths:
+        for coords in prov_death_coords:
+            amount = no_from_img(prov_death_coords[coords], True)
+            prov_deaths_totals[coords.upper()] = amount
 
-    print("prov_death_totals done")
+        print("prov_death_totals done")
 
-    for coords in prov_recovered_coords:
-        amount = no_from_img(prov_recovered_coords[coords], True)
-        prov_recovered_totals[coords.upper()] = amount
+    if load_recovered:
+        for coords in prov_recovered_coords:
+            amount = no_from_img(prov_recovered_coords[coords], True)
+            prov_recovered_totals[coords.upper()] = amount
 
-    print("prov_recovered_totals done")
+        print("prov_recovered_totals done")
 
     # for coords in prov_confirmed_coords:
     #     amount = no_from_img(prov_confirmed_coords[coords], True)
@@ -118,17 +120,30 @@ def get_tot_data(img_path):
     #
     # print("prov_confirmed_totals done")
 
-    gen_totals = dict(
-        unknown=no_from_img(gen_tot_coords['unknown']),
-        confirmed=no_from_img(gen_tot_coords['confirmed']),
-        tests=no_from_img(gen_tot_coords['tests']),
-        deaths=no_from_img(gen_tot_coords['deaths']),
+    gen_totals = dict()
+    if load_gen_total:
+        gen_totals = dict(
+            unknown=no_from_img(gen_tot_coords['unknown']),
+            confirmed=no_from_img(gen_tot_coords['confirmed']),
+            tests=no_from_img(gen_tot_coords['tests']),
+            deaths=no_from_img(gen_tot_coords['deaths']),
 
-    )
+        )
 
-    print("gen_totals done")
+        print("gen_totals done")
 
-    return date, prov_deaths_totals, prov_recovered_totals, gen_totals
+    out_tuple = (date,)
+
+    if load_deaths:
+        out_tuple = out_tuple + (prov_deaths_totals,)
+
+    if load_recovered:
+        out_tuple = out_tuple + (prov_recovered_totals,)
+
+    if load_gen_total:
+        out_tuple = out_tuple + (gen_totals,)
+
+    return out_tuple
 
 # prov_confirmed_totals
 
