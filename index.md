@@ -17,7 +17,7 @@ For info on how to do this, click [here](https://support.gpsgate.com/hc/en-us/ar
 
 These charts are all interactive. Mouse over an aspect of the chart to see more info, or if you are on mobile tap.
 # Total Cases & Tests
-**7 220 Infected (+437 change) | 257 541 Tested (+11 794 change)**
+**7 572 Infected (+352 change) | 268 064 Tested (+10 523 change)**
 <br><br>
 
 ___
@@ -28,7 +28,7 @@ ___
 </div>
 
 # Total Deaths & Recoveries
-**138 Deaths (+7 change) | 2 746 Recoveries (+197 change)** 
+**148 Deaths (+10 change) | 2 746 Recoveries (+0 change)** 
 <br><br>
 
 ___
@@ -113,7 +113,7 @@ ___
     <iframe class="lazy" data-src="cumulative_deaths.html" frameborder="0"></iframe>
 </div>
 <br>
-**Data last updated: 12:30 05 May 2020**
+**Data last updated: 12:24 06 May 2020**
 
 # Further Info
 ### N.B. Contact Info
