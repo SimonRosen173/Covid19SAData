@@ -1,9 +1,4 @@
-
-<!--**Note for mobile users: This site is not supported for mobile mode, please switch to desktop mode.**
-&nbsp;(This will be fixed soon. Thanks for your patience!)
-<br><br>
-For info on how to do this, click [here](https://support.gpsgate.com/hc/en-us/articles/360021934034-Change-to-Desktop-mode-on-your-mobile-browser).
-<br>-->
+<!--<center><a href="/provinces" class="btn alt_btn_col">Provinces Page</a></center>-->
 
 **This website is now supported on mobile mode.**
 
@@ -17,7 +12,7 @@ For info on how to do this, click [here](https://support.gpsgate.com/hc/en-us/ar
 
 These charts are all interactive. Mouse over an aspect of the chart to see more info, or if you are on mobile tap.
 # Total Cases & Tests
-**7 808 Infected (+236 change) | 279 379 Tested (+11 315 change)**
+**8 232 Cases (+424 change) | 292 153 Tested (+12 774 change)**
 <br><br>
 
 ___
@@ -28,7 +23,7 @@ ___
 </div>
 
 # Total Deaths & Recoveries
-**153 Deaths (+5 change) | 3 153 Recoveries (+407 change)** 
+**161 Deaths (+8 change) | 3 153 Recoveries (+0 change)** 
 <br><br>
 
 ___
@@ -113,7 +108,7 @@ ___
     <iframe class="lazy" data-src="cumulative_deaths.html" frameborder="0"></iframe>
 </div>
 <br>
-**Data last updated: 10:37 07 May 2020**
+**Data last updated: 12:43 08 May 2020**
 
 # Further Info
 ### N.B. Contact Info

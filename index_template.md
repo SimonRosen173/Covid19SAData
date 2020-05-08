@@ -1,9 +1,4 @@
-
-<!--**Note for mobile users: This site is not supported for mobile mode, please switch to desktop mode.**
-&nbsp;(This will be fixed soon. Thanks for your patience!)
-<br><br>
-For info on how to do this, click [here](https://support.gpsgate.com/hc/en-us/articles/360021934034-Change-to-Desktop-mode-on-your-mobile-browser).
-<br>-->
+<!--<center><a href="/provinces" class="btn alt_btn_col">Provinces Page</a></center>-->
 
 **This website is now supported on mobile mode.**
 
@@ -17,7 +12,7 @@ For info on how to do this, click [here](https://support.gpsgate.com/hc/en-us/ar
 
 These charts are all interactive. Mouse over an aspect of the chart to see more info, or if you are on mobile tap.
 # Total Cases & Tests
-**{#tot_infected#} Infected (+{#change_infected#} change) | {#tot_tested#} Tested (+{#change_tested#} change)**
+**{#tot_infected#} Cases (+{#change_infected#} change) | {#tot_tested#} Tested (+{#change_tested#} change)**
 <br><br>
 
 ___
