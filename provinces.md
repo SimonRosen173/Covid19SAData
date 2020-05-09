@@ -55,13 +55,11 @@ Note: You can click on provinces in the legend to hide or show them on the graph
 <div class="iframeDiv" align="center">
     <iframe class="lazy" data-src="date_vs_cases_per_province.html" frameborder="0"></iframe>
 </div>
-UNK - Unkown
 
 ### Date vs Daily Change of Positive Cases Per Province
 <div class="iframeDiv" align="center">
     <iframe class="lazy" data-src="date_vs_daily_cases_per_province.html" frameborder="0"></iframe>
 </div>
-UNK - Unkown
 
 # Deaths Over Time
 ___
@@ -69,10 +67,8 @@ ___
 <div class="iframeDiv" align="center">
     <iframe class="lazy" data-src="date_vs_deaths_per_province.html" frameborder="0"></iframe>
 </div>
-UNK - Unkown
 
 ### Date vs Daily Change of Deaths Per Province
 <div class="iframeDiv" align="center">
     <iframe class="lazy" data-src="date_vs_daily_deaths_per_province.html" frameborder="0"></iframe>
 </div>
-UNK - Unkown
