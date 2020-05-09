@@ -62,3 +62,17 @@ UNK - Unkown
     <iframe class="lazy" data-src="date_vs_daily_cases_per_province.html" frameborder="0"></iframe>
 </div>
 UNK - Unkown
+
+# Deaths Over Time
+___
+### Date vs No of Deaths Per Province
+<div class="iframeDiv" align="center">
+    <iframe class="lazy" data-src="date_vs_deaths_per_province.html" frameborder="0"></iframe>
+</div>
+UNK - Unkown
+
+### Date vs Daily Change of Deaths Per Province
+<div class="iframeDiv" align="center">
+    <iframe class="lazy" data-src="date_vs_daily_deaths_per_province.html" frameborder="0"></iframe>
+</div>
+UNK - Unkown
