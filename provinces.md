@@ -6,7 +6,7 @@ description: Data visualisations corresponding to the current Covid19 outbreak i
 
 <center><a href="/" class="btn alt_btn_col">Home</a></center>
 
-# Total Cases
+# Total & Latest Change in Cases
 
 ___
 
@@ -15,7 +15,12 @@ ___
     <iframe class="lazy pieChart" data-src="tot_cases_per_province.html" frameborder="0"></iframe>
 </div>
 
-# Total Deaths & Recoveries
+### Latest Change in Cases Per Province
+<div class="iframeDiv" align="center">
+    <iframe class="lazy pieChart" data-src="latest_change_cases_per_province.html" frameborder="0"></iframe>
+</div>
+
+# Total & Latest Change in Deaths & Recoveries
 
 <!--<table>
     <thead>
@@ -46,6 +51,11 @@ ___
 ### Total Deaths Per Province
 <div class="iframeDiv" align="center">
     <iframe class="lazy pieChart" data-src="tot_deaths_per_province.html" frameborder="0"></iframe>
+</div>
+
+### Latest Change in Deaths Per Province
+<div class="iframeDiv" align="center">
+    <iframe class="lazy pieChart" data-src="latest_change_deaths_per_province.html" frameborder="0"></iframe>
 </div>
 
 # Cases Over Time
