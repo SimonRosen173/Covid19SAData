@@ -4,7 +4,8 @@
 # E.g. using dict = {"var1":"hello", "var2":"world"}. Then "This is {#var1#} {#var2#}" becomes "This is hello world"
 
 import re
-
+import pandas as pd
+import numpy as np
 
 def render_template(in_file_name, out_file_name, var_dict):
     var_dict = dict(("{{#{}#}}".format(k),str(v)) for k,v in var_dict.items())
@@ -20,31 +21,33 @@ def render_template(in_file_name, out_file_name, var_dict):
     f_out.close()
 
 
-template_name = "index_template.md"
-output_name = "index.md"  # Outputted file
+def run():
+    template_name = "index_template.md"
+    output_name = "index.md"  # Outputted file
 
-import pandas as pd
-import numpy as np
+    gen_data = pd.read_csv('data/gen_data.csv')
+    tot_infected = gen_data.iloc[0]['tot_infected']
+    change_infected = gen_data.iloc[0]['change_infected']
 
-gen_data = pd.read_csv('data/gen_data.csv')
-tot_infected = gen_data.iloc[0]['tot_infected']
-change_infected = gen_data.iloc[0]['change_infected']
+    tot_tested = gen_data.iloc[0]['tot_tested']
+    change_tested = gen_data.iloc[0]['change_tested']
 
-tot_tested = gen_data.iloc[0]['tot_tested']
-change_tested = gen_data.iloc[0]['change_tested']
+    tot_deaths = gen_data.iloc[0]['tot_deaths']
+    change_deaths = gen_data.iloc[0]['change_deaths']
 
-tot_deaths = gen_data.iloc[0]['tot_deaths']
-change_deaths = gen_data.iloc[0]['change_deaths']
+    tot_recoveries = gen_data.iloc[0]['tot_recoveries']
+    change_recoveries = gen_data.iloc[0]['change_recoveries']
 
-tot_recoveries = gen_data.iloc[0]['tot_recoveries']
-change_recoveries = gen_data.iloc[0]['change_recoveries']
+    datetime_updated = gen_data.tail(1).iloc[0]['datetime_updated']
 
-datetime_updated = gen_data.tail(1).iloc[0]['datetime_updated']
+    varDict = dict(tot_infected=tot_infected, change_infected=change_infected, tot_deaths=tot_deaths,
+                   tot_tested=tot_tested, change_tested=change_tested, change_deaths=change_deaths,
+                   tot_recoveries=tot_recoveries, change_recoveries=change_recoveries,
+                   datetime_updated=datetime_updated)
 
-varDict = dict(tot_infected=tot_infected, change_infected=change_infected, tot_deaths=tot_deaths,
-               tot_tested=tot_tested, change_tested=change_tested, change_deaths=change_deaths,
-               tot_recoveries=tot_recoveries, change_recoveries=change_recoveries,
-               datetime_updated=datetime_updated)
+    # print(varDict)
+    render_template(template_name, output_name, varDict)
+    print("Template Rendered - " + datetime_updated)
 
-# print(varDict)
-render_template(template_name, output_name, varDict)
+
+run()
