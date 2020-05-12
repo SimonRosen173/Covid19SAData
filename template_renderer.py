@@ -5,7 +5,7 @@
 
 import re
 import pandas as pd
-import numpy as np
+
 
 def render_template(in_file_name, out_file_name, var_dict):
     var_dict = dict(("{{#{}#}}".format(k),str(v)) for k,v in var_dict.items())
@@ -21,7 +21,7 @@ def render_template(in_file_name, out_file_name, var_dict):
     f_out.close()
 
 
-def run():
+def render_index():
     template_name = "index_template.md"
     output_name = "index.md"  # Outputted file
 
@@ -50,4 +50,12 @@ def run():
     print("Template Rendered - " + datetime_updated)
 
 
-run()
+def render_provinces():
+    print("TODO")
+
+
+def render_all():
+    render_index()
+
+
+render_all()
