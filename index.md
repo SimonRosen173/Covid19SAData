@@ -1,4 +1,4 @@
-<center><a href="/provinces" class="btn alt_btn_col">Provinces Page</a></center>
+<center><a href="/provinces" class="btn alt_btn_col">Data Per Province Page</a></center>
 
 **The graphs per province have been moved to the page accessible by the button above**
 
@@ -134,7 +134,7 @@ ___
 </div>
 
 <br>
-**Data last updated: 10:05 15 May 2020**
+**Data last updated: 14:56 15 May 2020**
 
 # Further Info
 ### N.B. Contact Info
