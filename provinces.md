@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Covid19 SA Data - Provinces
-description: Data visualisations corresponding to the current Covid19 outbreak in South Africa by province
+title: Covid-19 SA Provincial Data
+description: South African Provincial Covid-19 data & visualisations. <br>Contains data for confirmed cases, tests, recoveries and deaths by province.
+author: Simon Rosen
 ---
 
 <center><a href="/" class="btn alt_btn_col">Home</a></center>
