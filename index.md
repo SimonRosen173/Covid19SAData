@@ -18,7 +18,7 @@ author: Simon Rosen
 
 These charts are all interactive. Mouse over an aspect of the chart to see more info, or if you are on mobile tap.
 # Total Cases & Tests
-**14 355 Cases (+831 change) | 439 559 Tested (+18 004 change)**
+**15 515 Cases (+1 160 change) | 460 873 Tested (+21 314 change)**
 <br><br>
 
 ___
@@ -31,7 +31,7 @@ ___
 </div>-->
 
 # Total Deaths & Recoveries
-**261 Deaths (+14 change) | 6 478 Recoveries (+395 change)** 
+**264 Deaths (+3 change) | 7 006 Recoveries (+528 change)** 
 <br><br>
 
 ___
@@ -140,7 +140,7 @@ ___
 </div>
 
 <br>
-**Data last updated: 12:26 17 May 2020**
+**Data last updated: 10:03 18 May 2020**
 
 # Further Info
 ### N.B. Contact Info
