@@ -30,7 +30,7 @@ ___
 </div>
 Tests per province data is for **13 May 2020**. This is when the data was last released.
 
-# Total & Latest Change in Deaths & Recoveries
+# Total & Latest Change in Recoveries
 
 <!--<table>
     <thead>
@@ -57,6 +57,15 @@ ___
 <div class="iframeDiv" align="center">
     <iframe class="lazy pieChart" data-src="tot_recovered_per_province.html" frameborder="0"></iframe>
 </div>
+<!--
+### Latest Change in Recoveries Per Province
+<div class="iframeDiv" align="center">
+    <iframe class="lazy pieChart" data-src="tot_recovered_per_province.html" frameborder="0"></iframe>
+</div>
+-->
+
+# Total & Latest Change in Deaths & Recoveries
+___
 
 ### Total Deaths Per Province
 <div class="iframeDiv" align="center">
@@ -79,6 +88,18 @@ Note: You can click on provinces in the legend to hide or show them on the graph
 ### Date vs Daily Change of Positive Cases Per Province
 <div class="iframeDiv" align="center">
     <iframe class="lazy" data-src="date_vs_daily_cases_per_province.html" frameborder="0"></iframe>
+</div>
+
+# Recoveries Over Time
+___
+### Date vs No of Recoveries Per Province
+<div class="iframeDiv" align="center">
+    <iframe class="lazy" data-src="date_vs_recoveries_per_province.html" frameborder="0"></iframe>
+</div>
+
+### Date vs Daily Change of Recoveries Per Province
+<div class="iframeDiv" align="center">
+    <iframe class="lazy" data-src="date_vs_daily_recoveries_per_province.html" frameborder="0"></iframe>
 </div>
 
 # Deaths Over Time

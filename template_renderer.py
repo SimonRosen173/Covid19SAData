@@ -58,4 +58,4 @@ def render_all():
     render_index()
 
 
-render_all()
+# render_all()

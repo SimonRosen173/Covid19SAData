@@ -134,12 +134,34 @@ def pre_process_data():
     # BY PROVINCE
     # -----------
 
-    def get_cum_daily_by_prov(data_url):
+    # Generator method to get all dates in specified interval
+    from datetime import timedelta, datetime
+
+    def datetime_range(start_datetime, end_datetime):
+        curr_date = start_datetime
+        yield curr_date
+        while curr_date <= end_datetime:
+            curr_date += timedelta(days=1)
+            yield curr_date
+
+    def get_cum_daily_by_prov(data_url, fill_date_gaps=False, dropna=True):
         cols = ['date', 'EC', 'FS', 'GP', 'KZN', 'LP', 'MP', 'NC', 'NW', 'WC', 'UNKNOWN']
         pd_kwargs = {"usecols": cols}
         cum_data = df_from_url(data_url, pd_kwargs)
-        cum_data.dropna(inplace=True)
+
+        if dropna:
+            cum_data.dropna(inplace=True)
+
         cum_data['date'] = pd.to_datetime(cum_data['date'], format='%d-%m-%Y')
+
+        if fill_date_gaps:
+            start_date = cum_data.iloc[0]['date']
+            end_date = cum_data.iloc[-1]['date']
+            date_range = list(datetime_range(start_date, end_date))
+            cum_data.set_index('date', inplace=True)
+            cum_data = cum_data.reindex(date_range)
+            cum_data.ffill(inplace=True)
+            cum_data.reset_index(inplace=True)
 
         daily_data = cum_data.copy()
         daily_data.iloc[1:, 1:] = daily_data.iloc[:, 1:].diff().iloc[1:]
@@ -164,13 +186,28 @@ def pre_process_data():
                                                     "data/covid19za_provincial_cumulative_timeline_deaths.csv")
     deaths_by_prov_timeline.to_csv("data/deaths_by_prov_timeline.csv")
 
+    # Recoveries
+    recoveries_by_prov_timeline = get_cum_daily_by_prov("https://raw.githubusercontent.com/dsfsi/covid19za/master/" +
+                                                        "data/covid19za_provincial_cumulative_timeline_recoveries.csv",
+                                                        fill_date_gaps=True)
+    recoveries_by_prov_timeline.to_csv("data/recoveries_by_prov_timeline.csv")
+
     # Total & Latest Change
-    def get_tot_latest_change(data_url, ):
+    def get_tot_latest_change(data_url, fill_date_gaps=False):
         cols = ['date', 'EC', 'FS', 'GP', 'KZN', 'LP', 'MP', 'NC', 'NW', 'WC', 'UNKNOWN']
         pd_kwargs = {"usecols": cols}
         cum_data = df_from_url(data_url, pd_kwargs)
-        cum_data.dropna(inplace=True)
+        cum_data.dropna(inplace=True)  # Rather fillna or ffill - look into
         cum_data['date'] = pd.to_datetime(cum_data['date'], format='%d-%m-%Y')
+
+        if fill_date_gaps:
+            start_date = cum_data.iloc[0]['date']
+            end_date = cum_data.iloc[-1]['date']
+            date_range = list(datetime_range(start_date, end_date))
+            cum_data.set_index('date', inplace=True)
+            cum_data = cum_data.reindex(date_range)
+            cum_data.ffill(inplace=True)
+            cum_data.reset_index(inplace=True)
 
         province_names = {
             "EC": "Eastern Cape",
@@ -213,6 +250,11 @@ def pre_process_data():
                                                     "data/covid19za_provincial_cumulative_timeline_confirmed.csv")
     confirmed_by_prov_total.to_csv('data/tot_provinces.csv')
 
+    # Total & latest change in recoveries by prov
+    recoveries_by_prov_total = get_tot_latest_change("https://raw.githubusercontent.com/dsfsi/covid19za/master/" +
+                                                     "data/covid19za_provincial_cumulative_timeline_recoveries.csv")
+    recoveries_by_prov_total.to_csv('data/tot_recovered_provinces.csv')
+
     def get_index_page_data():
         def zero_space(num):
             return format(num, ',d').replace(",", " ")
@@ -252,4 +294,7 @@ def pre_process_data():
     import template_renderer as tr
     tr.render_all()
 
+
 pre_process_data()
+
+# TODO - visualisations for data
