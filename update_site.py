@@ -140,7 +140,7 @@ def pre_process_data():
     def datetime_range(start_datetime, end_datetime):
         curr_date = start_datetime
         yield curr_date
-        while curr_date <= end_datetime:
+        while curr_date < end_datetime:
             curr_date += timedelta(days=1)
             yield curr_date
 
