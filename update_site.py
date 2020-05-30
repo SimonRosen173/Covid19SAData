@@ -174,6 +174,27 @@ def pre_process_data():
         data = pd.concat([cum_data_melt, daily_data_melt[['daily_no']]], axis=1)
         data[['cum_no', 'daily_no']] = data[['cum_no', 'daily_no']].astype('int32')
 
+        prov_pops = {  # https://github.com/dsfsi/covid19za/blob/master/data/district_data/za_province_pop.csv
+            "EC": 6712276.0,
+            "FS": 2887465.0,
+            "GP": 15176115.0,
+            "KZN": 11289086.0,
+            "LP": 5982584.0,
+            "MP": 4592187.0,
+            "NW": 4072160.0,
+            "NC": 1263875.0,
+            "WC": 6844272.0,
+            "UNKNOWN": None
+        }
+
+        data['cum_no_perc_pop'] = data['province'].map(prov_pops)
+        data['cum_no_perc_pop'] = data['cum_no'] / data['cum_no_perc_pop'] * 100
+        data['cum_no_perc_pop'] = data['cum_no_perc_pop'].round(3)
+
+        data['daily_no_perc_pop'] = data['province'].map(prov_pops)
+        data['daily_no_perc_pop'] = data['daily_no'] / data['daily_no_perc_pop'] * 100
+        data['daily_no_perc_pop'] = data['daily_no_perc_pop'].round(3)
+
         return data
 
     # Confirmed
