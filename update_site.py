@@ -693,5 +693,6 @@ def create_visualisations():
     print("Create line graphs by province finished")
     print("Create Visualisations finished")
 
-
+pre_process_data()
+create_visualisations()
 input("Press Enter to Quit")
