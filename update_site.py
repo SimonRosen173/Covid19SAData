@@ -9,6 +9,7 @@ import plotly.offline
 import os
 import subprocess
 
+
 def pre_process_data():
     # get dataframe from specified url using kwargs specified for read_csv
     def df_from_url(df_url, pd_kwargs={}):
@@ -692,6 +693,7 @@ def create_visualisations():
 
     print("Create line graphs by province finished")
     print("Create Visualisations finished")
+
 
 pre_process_data()
 create_visualisations()
