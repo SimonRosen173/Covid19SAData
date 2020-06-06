@@ -28,7 +28,7 @@ ___
 <div class="iframeDiv" align="center">
     <iframe class="lazy pieChart" data-src="tot_tests_per_province.html" frameborder="0"></iframe>
 </div>
-Tests per province data is for **20 May 2020**. This is when the data was last released.
+Tests per province data is for **28 May 2020**. This is when the data was last released.
 
 # Total & Latest Change in Recoveries
 

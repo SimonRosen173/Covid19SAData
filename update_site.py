@@ -11,6 +11,8 @@ import subprocess
 
 
 def pre_process_data():
+    print("Pre-Processing Started")
+
     # get dataframe from specified url using kwargs specified for read_csv
     def df_from_url(df_url, pd_kwargs={}):
         df_req = requests.get(df_url).content
@@ -284,6 +286,11 @@ def pre_process_data():
     recoveries_by_prov_total = get_tot_latest_change("https://raw.githubusercontent.com/dsfsi/covid19za/master/" +
                                                      "data/covid19za_provincial_cumulative_timeline_recoveries.csv")
     recoveries_by_prov_total.to_csv('data/tot_recovered_provinces.csv')
+
+    # Total & latest change in tests per prov
+    tests_by_prov_total = get_tot_latest_change("https://raw.githubusercontent.com/dsfsi/covid19za/master/" +
+                                                "data/covid19za_provincial_cumulative_timeline_testing.csv")
+    tests_by_prov_total.to_csv('data/tot_tests_provinces.csv')
 
     print("Pre-Processing Done")
 
