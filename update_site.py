@@ -704,4 +704,4 @@ def create_visualisations():
 
 pre_process_data()
 create_visualisations()
-input("Press Enter to Quit")
+# input("Press Enter to Quit")
