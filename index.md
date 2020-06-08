@@ -5,7 +5,7 @@ description: South African Covid-19 data & visualisations. <br>Contains data for
 author: Simon Rosen
 ---
 <center><a href="/provinces" class="btn alt_btn_col">Data Per Province Page</a></center> 
-Click the above button to be taken to a page showing Covid19 SA data per province. 
+Click the above button to be taken to a page showing Covid19 data per province. 
 
 ___
 
