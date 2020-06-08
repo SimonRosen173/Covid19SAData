@@ -4,17 +4,13 @@ title: Covid-19 SA Data
 description: South African Covid-19 data & visualisations. <br>Contains data for confirmed cases, tests, recoveries, deaths & active cases.
 author: Simon Rosen
 ---
-<center><a href="/provinces" class="btn alt_btn_col">Data Per Province Page</a></center>
+<center><a href="/provinces" class="btn alt_btn_col">Data Per Province Page</a></center> 
+Click the above button to be taken to a page showing Covid19 SA data per province. 
 
-**The graphs per province have been moved to the page accessible by the button above**
+___
 
+<br>
 **Please note that some interactive graphs take a bit of time to load, thank you for your patience.** 
-
-<!--
-# Updates
-* South African lockdown is extended by two weeks until midnight 30 April. [[Source]](https://www.sanews.gov.za/south-africa/nationwide-lockdown-extended-two-weeks)
-<br><br>
--->
 
 These charts are all interactive. Mouse over an aspect of the chart to see more info, or if you are on mobile tap.
 # Total Cases & Tests
