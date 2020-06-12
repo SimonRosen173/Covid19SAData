@@ -14,7 +14,7 @@ ___
 
 These charts are all interactive. Mouse over an aspect of the chart to see more info, or if you are on mobile tap.
 # Total Cases & Tests
-**55 421 Cases (+2 430 change) | 998 400 Tested (+30 330 change)**
+**58 568 Cases (+3 147 change) | 1 028 399 Tested (+29 999 change)**
 <br><br>
 
 ___
@@ -27,7 +27,7 @@ ___
 </div>-->
 
 # Total Deaths & Recoveries
-**1 210 Deaths (+48 change) | 31 505 Recoveries (+2 499 change)** 
+**1 284 Deaths (+74 change) | 33 252 Recoveries (+1 747 change)** 
 <br><br>
 
 ___
@@ -136,7 +136,7 @@ ___
 </div>
 
 <br>
-**Data last updated: 10:02 11 June 2020**
+**Data last updated: 13:04 12 June 2020**
 
 # Further Info
 ### N.B. Contact Info
