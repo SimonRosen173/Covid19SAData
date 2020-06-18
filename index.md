@@ -136,7 +136,7 @@ ___
 </div>
 
 <br>
-**Data last updated: 23:59 17 June 2020**
+**Data last updated: 08:00 18 June 2020**
 
 # Further Info
 ### N.B. Contact Info
