@@ -14,7 +14,7 @@ ___
 
 These charts are all interactive. Mouse over an aspect of the chart to see more info, or if you are on mobile tap.
 # Total Cases & Tests
-**80 412 Cases (+4 078 change) | 1 228 098 Tested (+20 738 change)**
+**83 890 Cases (+3 478 change) | 1 228 098 Tested (+20 738 change)**
 <br><br>
 
 ___
@@ -136,7 +136,7 @@ ___
 </div>
 
 <br>
-**Data last updated: 23:59 18 June 2020**
+**Data last updated: 08:00 19 June 2020**
 
 # Further Info
 ### N.B. Contact Info
