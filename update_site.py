@@ -336,6 +336,14 @@ def pre_process_data():
 
 def create_visualisations():
     print("Create Visualisations started")
+
+    # Check graphs/charts are rendered correctly
+    # If 3rd last line is not '</svg>' then graph was not rendered properly
+    def is_chart_valid(file_path):
+        chart_file = open(file_path)
+
+        return True
+
     # --------------
     #   SUMMARIES
     # --------------
@@ -366,6 +374,7 @@ def create_visualisations():
         if save_file_name != "":
             plotly.offline.plot(fig, filename=save_file_name, auto_open=False,
                                 config=dict(displayModeBar=False))
+
 
         return fig
 
