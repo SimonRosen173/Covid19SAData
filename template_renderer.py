@@ -21,6 +21,59 @@ def render_template(in_file_name, out_file_name, var_dict):
     f_out.close()
 
 
+def df_to_html(df):
+    url_map = {}
+    html_text = "<table>\n"
+    #  Headings
+    # ----------
+    html_text += "<thead>\n\t<tr class=\"header\">\n"
+    # Each Column
+    html_text += "\t\t<th>" + df.index.name + "</th>\n"  # index name
+    for col in df.columns:
+        html_text += "\t\t<th>"+col+"</th>\n"
+        # print(col)
+
+    html_text += "\n\t</tr>\n</thead>\n"
+
+    #  Body
+    # ------
+    html_text += "<tbody>\n"
+    no_rows = df.shape[0]
+    no_cols = df.shape[1]
+    for j in range(no_rows):
+        html_text += "\t<tr>\n"
+
+        index_str = ""
+        if df.index[j] in url_map:
+            url_str = url_map[df.index[j]]
+            index_str = "[" + str(df.index[j]) + "](" + url_str + ")"
+        else:
+            index_str = str(df.index[j])
+
+        class_text = "index"
+        is_total_row = False
+        if str(df.index[j]).lower() == "total":
+            class_text += " total"
+            is_total_row = True
+
+        html_text += "\t\t<td class=\""+class_text+"\" markdown=\"span\">" + index_str + "</td>\n"
+        # html_text += "\t\t<td class=\"index\"><p>" + index_str + "</p></td>\n"
+
+        class_text = ""
+        if is_total_row:
+            class_text = "class=\"total\""
+        for i in range(no_cols):
+            html_text += "\t\t<td " + class_text + " markdown=\"span\">"+str(df.iloc[j,i])+"</td>\n"
+
+        html_text += "\t</tr>\n"
+
+    # print(no_rows, no_cols)
+    html_text += "</tbody>\n"
+
+    html_text += "</table>"
+    return html_text
+
+
 def render_index():
     template_name = "index_template.md"
     output_name = "index.md"  # Outputted file
@@ -47,15 +100,51 @@ def render_index():
 
     # print(varDict)
     render_template(template_name, output_name, varDict)
-    print("Template Rendered - " + datetime_updated)
+    print("Index Template Rendered - " + datetime_updated + "\n")
 
 
 def render_provinces():
-    print("TODO")
+    template_name = "provinces_template.md"
+    output_name = "provinces.md"  # Outputted file
+
+    def zero_space(num):
+        return format(num, ',d').replace(",", " ")
+
+    def num_to_plus_minus_str(num):
+        if num >= 0:
+            num = zero_space(num)
+            num = "+" + num
+        else:
+            num = zero_space(num)
+        return num
+
+    prov_summary_df = pd.read_csv("data/prov_summary.csv", index_col='Province',)
+
+    prov_summary_df['New Cases'] = prov_summary_df['New Cases'].apply(num_to_plus_minus_str)
+    prov_summary_df['New Recoveries'] = prov_summary_df['New Recoveries'].apply(num_to_plus_minus_str)
+    prov_summary_df['New Deaths'] = prov_summary_df['New Deaths'].apply(num_to_plus_minus_str)
+
+    prov_summary_df['Cases'] = prov_summary_df['Cases'].apply(zero_space)
+    prov_summary_df['Recoveries'] = prov_summary_df['Recoveries'].apply(zero_space)
+    prov_summary_df['Deaths'] = prov_summary_df['Deaths'].apply(zero_space)
+
+    # print(prov_summary_df)
+    prov_summary_tbl = df_to_html(prov_summary_df)
+
+    gen_data = pd.read_csv('data/gen_data.csv')
+    datetime_updated = gen_data.tail(1).iloc[0]['datetime_updated']
+
+    var_dict = {"datetime_updated":datetime_updated, "prov_summary_tbl":prov_summary_tbl}
+
+    render_template(template_name, output_name, var_dict)
+
+    print("Provinces Template Rendered\n")
 
 
 def render_all():
     render_index()
+    render_provinces()
 
 
+# render_provinces()
 render_all()

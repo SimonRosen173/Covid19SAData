@@ -292,6 +292,39 @@ def pre_process_data():
                                                 "data/covid19za_provincial_cumulative_timeline_testing.csv")
     tests_by_prov_total.to_csv('data/tot_tests_provinces.csv')
 
+    # Summary of data
+    # Province | Confirmed | Change in Confirmed | Recovered | Change in Recovered | Deaths | Change In Deaths
+    def get_prov_summary():
+        def get_prov_df_correct_format(df, cols):
+            new_df = df.copy()
+            new_df['latest_change'] = new_df['latest_change'].astype(str)
+            new_df.reset_index(inplace=True)
+
+            new_df = new_df.rename({"province": "Province", "total": cols[0], "latest_change": cols[1]}, axis=1, )
+            new_df.set_index('Province', inplace=True)
+            return new_df
+
+        prov_df_list = [confirmed_by_prov_total, recoveries_by_prov_total, deaths_by_prov_total]
+
+        def add_total(df):
+            new_df = df.copy()
+            sum_series = new_df.sum()
+            sum_series.rename('Total', inplace=True)
+            new_df = new_df.append(sum_series)
+            return new_df
+
+        prov_df_list = list(map(add_total, prov_df_list))
+
+        prov_df_cols_list = [['Cases', 'New Cases'], ['Recoveries', 'New Recoveries'], ['Deaths', 'New Deaths']]
+        form_prov_df_list = [get_prov_df_correct_format(tup[0], tup[1]) for tup in zip(prov_df_list, prov_df_cols_list)]
+
+        _prov_summary_df = pd.concat([form_prov_df_list[0], form_prov_df_list[1], form_prov_df_list[2]], axis=1)
+
+        return _prov_summary_df
+
+    prov_summary_df = get_prov_summary()
+    prov_summary_df.to_csv("data/prov_summary.csv")
+
     print("Pre-Processing Done")
 
     def get_index_page_data():
@@ -374,7 +407,6 @@ def create_visualisations():
         if save_file_name != "":
             plotly.offline.plot(fig, filename=save_file_name, auto_open=False,
                                 config=dict(displayModeBar=False))
-
 
         return fig
 
