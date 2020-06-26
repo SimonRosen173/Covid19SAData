@@ -1,12 +1,12 @@
 Province,Cases,New Cases,Recoveries,New Recoveries,Deaths,New Deaths
-Eastern Cape,20487,1273,10439,771,363,17
-Free State,976,87,318,54,9,0
-Gauteng,28746,2590,5856,0,149,2
-KwaZulu-Natal,6590,515,2947,0,106,15
-Limpopo,730,60,329,26,5,0
-Mpumalanga,783,70,207,8,2,0
-Northern Cape,318,19,112,0,1,0
-North West,2965,347,291,0,5,0
-Western Cape,56780,1618,39475,2241,1652,53
+Eastern Cape,21938,1451,11349,910,371,8
+Free State,1069,93,318,0,9,0
+Gauteng,31344,2598,7132,1276,149,0
+KwaZulu-Natal,7090,500,3197,250,106,0
+Limpopo,798,68,348,19,5,0
+Mpumalanga,855,72,239,32,2,0
+Northern Cape,337,19,128,16,1,0
+North West,3218,253,421,130,5,0
+Western Cape,57941,1161,40979,1504,1692,40
 Unknown,0,0,0,0,0,0
-Total,118375,6579,59974,3100,2292,87
+Total,124590,6215,64111,4137,2340,48
