@@ -3,7 +3,7 @@ layout: default
 title: Covid-19 SA Data
 description: South African Covid-19 data & visualisations. <br>Contains data for confirmed cases, tests, recoveries, deaths & active cases.
 author: Simon Rosen
-last_updated: 10:34 21 July 2020
+last_updated: 17:02 21 July 2020
 ---
 <center><a href="/provinces" class="btn alt_btn_col">Data Per Province Page</a></center> 
 Click the above button to be taken to a page showing Covid19 data per province. 
@@ -138,7 +138,7 @@ ___
 
 <!--
 <br>
-**Data last updated: 10:34 21 July 2020**
+**Data last updated: 17:02 21 July 2020**
 -->
 
 {% include_relative _includes/footer.md %}

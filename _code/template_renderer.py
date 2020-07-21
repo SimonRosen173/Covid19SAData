@@ -190,6 +190,8 @@ def render_each_province():
 
 
 def render_all():
+    print("--------------------------")
+    print("Template Rendering Started")
     render_index()
     render_provinces()
     render_each_province()
