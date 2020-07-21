@@ -5,3 +5,4 @@ _site
 Gemfile
 venv/*
 __pycache__/*
+*/__pycache__/*

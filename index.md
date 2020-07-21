@@ -3,7 +3,7 @@ layout: default
 title: Covid-19 SA Data
 description: South African Covid-19 data & visualisations. <br>Contains data for confirmed cases, tests, recoveries, deaths & active cases.
 author: Simon Rosen
-last_updated: 08:00 21 July 2020
+last_updated: 10:34 21 July 2020
 ---
 <center><a href="/provinces" class="btn alt_btn_col">Data Per Province Page</a></center> 
 Click the above button to be taken to a page showing Covid19 data per province. 
@@ -138,30 +138,7 @@ ___
 
 <!--
 <br>
-**Data last updated: 08:00 21 July 2020**
+**Data last updated: 10:34 21 July 2020**
 -->
 
-# Further Info
-### N.B. Contact Info
-* SA DoH's Covid-19 Emergency Hotline: [0800 029 999](tel:0800 029 999)
-* SA DoH's Covid-19 WhatsApp Support Line: [0600-123456](tel:0600-123456)
-
-### Resources
-Make sure to keep up to date using the following sources:
-* [COVID-19 Corona Virus South African Resource Portal](https://sacoronavirus.co.za/)
-* [National Institute for Communicable Diseases Website](http://www.nicd.ac.za/)
-* [South African Government News Agency Website](https://www.sanews.gov.za/)
-
-# References
-### Data
-* [Coronavirus COVID-19 (2019-nCoV) Data Repository for South Africa](https://github.com/dsfsi/covid19za) - 
-Data Science for Social Impact Research Group at the University of Pretoria
-* [COVID-19 Corona Virus South African Resource Portal](https://sacoronavirus.co.za/)
-* [NICD Twitter](https://twitter.com/nicd_sa?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor)
-* [South African Government News Agency Website](https://www.sanews.gov.za/)
-
-<br>
-Note: Data will only be updated after being officially released by government. This is to avoid using incorrect data.
-<br>
-
-If you encounter incorrect data on this site please report it via this email: [simonrosen173@gmail.com](mailto:simonrosen173@gmail.com)
+{% include_relative _includes/footer.md %}

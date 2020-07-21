@@ -11,9 +11,11 @@ last_updated: {#datetime_updated#}
 # Summary
 ___
 
+**Note: Click on an underlined province name to be taken to a page specific to that province.**
+
 {#prov_summary_tbl#}
 Negative values in the "New" columns indicate that the total of that value for the specified province went down from the previous
-day. This is due to the numbers being adjusted by government and moved to the totals of other provinces.
+day. This is due to the numbers being adjusted by government and moved to the totals of other provinces or mistakes in the reporting by government.
 
 # Total & Latest Change in Cases
 
@@ -79,6 +81,12 @@ Note: You can click on provinces in the legend to hide or show them on the graph
     <iframe class="lazy" data-src="date_vs_daily_cases_per_province.html" scrolling="no" frameborder="0"></iframe>
 </div>
 
+### Date vs No of Positive Cases Per Province As Percent of Province's Population
+<div class="iframeDiv" align="center">
+    <iframe class="lazy" data-src="date_vs_cases_perc_pop_per_province.html" scrolling="no" frameborder="0"></iframe>
+</div>
+**Populations per province are shown the bottom of this page**
+
 # Recoveries Over Time
 ___
 ### Date vs No of Recoveries Per Province
@@ -91,6 +99,12 @@ ___
     <iframe class="lazy" data-src="date_vs_daily_recoveries_per_province.html" scrolling="no" frameborder="0"></iframe>
 </div>
 
+### Date vs No of Recoveries Per Province As Percent of Province's Population
+<div class="iframeDiv" align="center">
+    <iframe class="lazy" data-src="date_vs_recoveries_perc_pop_per_province.html" scrolling="no" frameborder="0"></iframe>
+</div>
+**Populations per province are shown at the bottom of this page**
+
 # Deaths Over Time
 ___
 ### Date vs No of Deaths Per Province
@@ -102,3 +116,17 @@ ___
 <div class="iframeDiv" align="center">
     <iframe class="lazy" data-src="date_vs_daily_deaths_per_province.html" scrolling="no" frameborder="0"></iframe>
 </div>
+
+### Date vs No of Deaths Per Province As Percent of Province's Population
+<div class="iframeDiv" align="center">
+    <iframe class="lazy" data-src="date_vs_deaths_perc_pop_per_province.html" scrolling="no" frameborder="0"></iframe>
+</div>
+
+## Population Per Province
+
+___
+
+{#prov_pop_tbl#}
+
+{% include_relative _includes/footer.md %}
+
