@@ -374,6 +374,8 @@ def preprocess_gp_data():
     print("GP Pre-Processing Started")
     import re
 
+    use_local_src = True
+
     def format_gp_cols(df):
         def change_col_name(col_name):
             new_col_name = re.sub(r'\tCases| |GP', '', col_name)
@@ -429,7 +431,7 @@ def preprocess_gp_data():
         return data, last_date
 
     gp_tot_latest_df, gp_summary_date = get_tot_latest_change_per_district('district_data/provincial_gp_cumulative.csv', 'gp',
-                                                                use_url_prefix=True, use_local_csv=True)
+                                                                use_url_prefix=True, use_local_csv=use_local_src)
     gp_tot_latest_df.to_csv("data/gp_tot_latest.csv")
 
     # Additional data for tables & figures, e.g. date which data is for
@@ -510,7 +512,7 @@ def preprocess_gp_data():
         return data
 
     confirmed_by_dist_gp_timeline = get_cum_daily_by_distict('district_data/provincial_gp_cumulative.csv', province='gp',
-                                                             use_url_prefix=True, use_local_csv=True)
+                                                             use_url_prefix=True, use_local_csv=use_local_src)
     confirmed_by_dist_gp_timeline.to_csv("data/confirmed_by_dist_gp_timeline.csv")
 
     print("GP Pre-Processing Completed")

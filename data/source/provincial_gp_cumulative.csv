@@ -1,4 +1,4 @@
-date,YYYYMMDD,"Ekurhuleni	Cases","Johannesburg	Cases","Sedibeng	Cases","Tshwane	Cases","West Rand	Cases","GP Unallocated	Cases","GP	Cases","GP	Recoveries","GP	Hospitalisations","GP	Deaths",source,
+date,YYYYMMDD,Ekurhuleni	Cases,Johannesburg	Cases,Sedibeng	Cases,Tshwane	Cases,West Rand	Cases,GP Unallocated	Cases,GP	Cases,GP	Recoveries,GP	Hospitalisations,GP	Deaths,source,comment
 10-04-2020,20200410,120,446,6,90,12,127,801,,,,https://twitter.com/bandilemasuku/status/1248885756350906368?s=20,
 11-04-2020,20200411,141,467,6,92,30,77,813,,,,https://twitter.com/bandilemasuku/status/1249256629809315840?s=20,
 12-04-2020,20200412,141,508,8,101,30,77,865,350,,,https://twitter.com/bandilemasuku/status/1249617706946527232?s=20,
@@ -99,3 +99,4 @@ date,YYYYMMDD,"Ekurhuleni	Cases","Johannesburg	Cases","Sedibeng	Cases","Tshwane	
 17-07-2020,20200717,27534,54428,7093,21929,8232,4192,123408,55350,2686,917,https://twitter.com/GautengHealth/status/1284490028232605696,
 18-07-2020,20200718,28686,56442,7440,23013,8531,4492,128604,58512,2686,956,https://twitter.com/GautengHealth/status/1284834622870872064/photo/1,
 19-07-2020,20200719,29887,58301,7906,24036,8835,4652,133617,66374,,986,https://twitter.com/GautengHealth/status/1285207204275068929/,
+20-07-2020,20200720,30606,59374,8131,25021,9004,4743,136879,68348,2487,999,https://twitter.com/GautengHealth/status/1285620233164795906,
