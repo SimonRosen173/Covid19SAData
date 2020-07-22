@@ -1,5 +1,7 @@
 # Covid19 SA Data
 Website to show data visualisations pertaining to current coronavirus outbreak in South Africa.
+
+**Note: This repo has swollen to be massive in size due to the frequent commits of large files & a lot of corruption has occured. The contents of this repo will most likely be moved to a new repo as well as a major rework of the site. This rework includes changing how the site is updated, moving the site off GitHub pages and changing from Plotly.py to Plotly.js**
 ___
 
 **Note: I manually recreate the graphs and ensure the data is correct, thus the website may take a bit of time to update after data is officially released.**
