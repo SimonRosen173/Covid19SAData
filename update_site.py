@@ -757,6 +757,24 @@ import _code.create_visualisations as vis
 import _code.preprocess as preprocess
 import _code.template_renderer as template_renderer
 
-preprocess.preprocess_all()
-vis.create_all()
-template_renderer.render_all()
+# Possible options: 'all', 'sa', 'provinces', 'gp'
+update_option = 'all'
+print("update_option = " + update_option + " selected\n")
+
+# All
+if update_option == 'all':
+    preprocess.preprocess_all()
+    vis.create_all()
+    template_renderer.render_all()
+elif update_option == 'sa':
+    preprocess.preprocess_sa_data()
+    vis.create_sa_vis()
+    template_renderer.render_index()
+elif update_option == 'provinces':
+    preprocess.preprocess_prov_data()
+    vis.create_prov_vis()
+    template_renderer.render_provinces()
+elif update_option == 'gp':
+    preprocess.preprocess_gp_data()
+    vis.create_gp_vis()
+    template_renderer.render_each_province()  # Only renders gp for now
