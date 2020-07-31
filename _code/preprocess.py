@@ -374,7 +374,7 @@ def preprocess_gp_data():
     print("GP Pre-Processing Started")
     import re
 
-    use_local_src = True
+    use_local_src = False
 
     def format_gp_cols(df):
         def change_col_name(col_name):
