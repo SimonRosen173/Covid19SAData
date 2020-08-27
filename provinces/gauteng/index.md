@@ -3,7 +3,7 @@ layout: default
 title: Covid-19 SA Provincial Data - Gauteng
 description: South African Covid-19 data & visualisations for Gauteng. <br>Contains data for confirmed cases, tests, recoveries, deaths & active cases.
 author: Simon Rosen
-last_updated: 23 August 2020
+last_updated: 25 August 2020
 ---
 <center><a href="/provinces" class="btn alt_btn_col">Data Per Province Page</a></center> 
 Click the above button to be taken to a page showing Covid19 data per province. 
@@ -23,43 +23,43 @@ ___
 <tbody>
 	<tr>
 		<td class="index" markdown="span">Ekurhuleni</td>
-		<td  markdown="span">46 306</td>
-		<td  markdown="span">+175</td>
-	</tr>
-	<tr>
-		<td class="index" markdown="span">Johannesburg</td>
-		<td  markdown="span">82 780</td>
-		<td  markdown="span">+300</td>
-	</tr>
-	<tr>
-		<td class="index" markdown="span">Sedibeng</td>
-		<td  markdown="span">13 882</td>
-		<td  markdown="span">+39</td>
-	</tr>
-	<tr>
-		<td class="index" markdown="span">Tshwane</td>
-		<td  markdown="span">44 092</td>
-		<td  markdown="span">+203</td>
-	</tr>
-	<tr>
-		<td class="index" markdown="span">WestRand</td>
-		<td  markdown="span">13 196</td>
+		<td  markdown="span">46 510</td>
 		<td  markdown="span">+58</td>
 	</tr>
 	<tr>
+		<td class="index" markdown="span">Johannesburg</td>
+		<td  markdown="span">83 075</td>
+		<td  markdown="span">+106</td>
+	</tr>
+	<tr>
+		<td class="index" markdown="span">Sedibeng</td>
+		<td  markdown="span">13 946</td>
+		<td  markdown="span">+32</td>
+	</tr>
+	<tr>
+		<td class="index" markdown="span">Tshwane</td>
+		<td  markdown="span">44 338</td>
+		<td  markdown="span">+148</td>
+	</tr>
+	<tr>
+		<td class="index" markdown="span">WestRand</td>
+		<td  markdown="span">13 249</td>
+		<td  markdown="span">+20</td>
+	</tr>
+	<tr>
 		<td class="index" markdown="span">Unknown</td>
-		<td  markdown="span">5 762</td>
-		<td  markdown="span">-3</td>
+		<td  markdown="span">5 774</td>
+		<td  markdown="span">+3</td>
 	</tr>
 	<tr>
 		<td class="index total" markdown="span">Total</td>
-		<td class="total" markdown="span">206 018</td>
-		<td class="total" markdown="span">+772</td>
+		<td class="total" markdown="span">206 892</td>
+		<td class="total" markdown="span">+367</td>
 	</tr>
 </tbody>
 </table>
 
-All data is for **23 August 2020**.
+All data is for **25 August 2020**.
 
 # Total & Latest Change in Cases
 
