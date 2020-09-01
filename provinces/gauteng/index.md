@@ -3,7 +3,7 @@ layout: default
 title: Covid-19 SA Provincial Data - Gauteng
 description: South African Covid-19 data & visualisations for Gauteng. <br>Contains data for confirmed cases, tests, recoveries, deaths & active cases.
 author: Simon Rosen
-last_updated: 28 August 2020
+last_updated: 30 August 2020
 ---
 <center><a href="/provinces" class="btn alt_btn_col">Data Per Province Page</a></center> 
 Click the above button to be taken to a page showing Covid19 data per province. 
@@ -23,43 +23,43 @@ ___
 <tbody>
 	<tr>
 		<td class="index" markdown="span">Ekurhuleni</td>
-		<td  markdown="span">46 925</td>
-		<td  markdown="span">+120</td>
+		<td  markdown="span">47 186</td>
+		<td  markdown="span">+129</td>
 	</tr>
 	<tr>
 		<td class="index" markdown="span">Johannesburg</td>
-		<td  markdown="span">83 686</td>
-		<td  markdown="span">+108</td>
+		<td  markdown="span">84 018</td>
+		<td  markdown="span">+174</td>
 	</tr>
 	<tr>
 		<td class="index" markdown="span">Sedibeng</td>
-		<td  markdown="span">14 105</td>
-		<td  markdown="span">+22</td>
+		<td  markdown="span">14 209</td>
+		<td  markdown="span">+43</td>
 	</tr>
 	<tr>
 		<td class="index" markdown="span">Tshwane</td>
-		<td  markdown="span">44 933</td>
-		<td  markdown="span">+145</td>
+		<td  markdown="span">45 213</td>
+		<td  markdown="span">+136</td>
 	</tr>
 	<tr>
 		<td class="index" markdown="span">WestRand</td>
-		<td  markdown="span">13 359</td>
-		<td  markdown="span">+22</td>
+		<td  markdown="span">13 420</td>
+		<td  markdown="span">+30</td>
 	</tr>
 	<tr>
 		<td class="index" markdown="span">Unknown</td>
-		<td  markdown="span">5 571</td>
-		<td  markdown="span">+6</td>
+		<td  markdown="span">5 602</td>
+		<td  markdown="span">+13</td>
 	</tr>
 	<tr>
 		<td class="index total" markdown="span">Total</td>
-		<td class="total" markdown="span">208 579</td>
-		<td class="total" markdown="span">+423</td>
+		<td class="total" markdown="span">209 648</td>
+		<td class="total" markdown="span">+525</td>
 	</tr>
 </tbody>
 </table>
 
-All data is for **28 August 2020**.
+All data is for **30 August 2020**.
 
 # Total & Latest Change in Cases
 
@@ -88,6 +88,7 @@ Note: You can click on districts in the legend to hide or show them on the graph
 <div class="iframeDiv" align="center">
     <iframe class="lazy" data-src="date_vs_daily_cases_per_district_gp.html" scrolling="no" frameborder="0"></iframe>
 </div>
+**Note: Days where all the values are zero are as a result of data not being released for that day**
 
 ## More coming soon!
 

@@ -512,7 +512,7 @@ def preprocess_gp_data():
         return data
 
     confirmed_by_dist_gp_timeline = get_cum_daily_by_distict('district_data/provincial_gp_cumulative.csv', province='gp',
-                                                             use_url_prefix=True, use_local_csv=use_local_src)
+                                                             fill_date_gaps=True, use_url_prefix=True, use_local_csv=use_local_src)
     confirmed_by_dist_gp_timeline.to_csv("data/confirmed_by_dist_gp_timeline.csv")
 
     print("GP Pre-Processing Completed")

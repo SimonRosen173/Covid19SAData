@@ -42,6 +42,7 @@ Note: You can click on districts in the legend to hide or show them on the graph
 <div class="iframeDiv" align="center">
     <iframe class="lazy" data-src="date_vs_daily_cases_per_district_gp.html" scrolling="no" frameborder="0"></iframe>
 </div>
+**Note: Days where all the values are zero are as a result of data not being released for that day**
 
 ## More coming soon!
 

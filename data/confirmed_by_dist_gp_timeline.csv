@@ -3,6 +3,7 @@ date,district,cum_no,daily_no
 2020-04-11,Ekurhuleni,141,21
 2020-04-12,Ekurhuleni,141,0
 2020-04-13,Ekurhuleni,148,7
+2020-04-14,Ekurhuleni,148,0
 2020-04-15,Ekurhuleni,161,13
 2020-04-16,Ekurhuleni,180,19
 2020-04-17,Ekurhuleni,196,16
@@ -35,6 +36,7 @@ date,district,cum_no,daily_no
 2020-05-14,Ekurhuleni,460,4
 2020-05-15,Ekurhuleni,477,17
 2020-05-16,Ekurhuleni,488,11
+2020-05-17,Ekurhuleni,488,0
 2020-05-18,Ekurhuleni,527,39
 2020-05-19,Ekurhuleni,538,11
 2020-05-20,Ekurhuleni,549,11
@@ -94,6 +96,7 @@ date,district,cum_no,daily_no
 2020-07-13,Ekurhuleni,23218,1408
 2020-07-14,Ekurhuleni,23767,549
 2020-07-15,Ekurhuleni,24948,1181
+2020-07-16,Ekurhuleni,24948,0
 2020-07-17,Ekurhuleni,27534,2586
 2020-07-18,Ekurhuleni,28686,1152
 2020-07-19,Ekurhuleni,29887,1201
@@ -109,6 +112,10 @@ date,district,cum_no,daily_no
 2020-07-29,Ekurhuleni,37678,923
 2020-07-30,Ekurhuleni,38273,595
 2020-07-31,Ekurhuleni,39181,908
+2020-08-01,Ekurhuleni,39181,0
+2020-08-02,Ekurhuleni,39181,0
+2020-08-03,Ekurhuleni,39181,0
+2020-08-04,Ekurhuleni,39181,0
 2020-08-05,Ekurhuleni,41393,2212
 2020-08-06,Ekurhuleni,41895,502
 2020-08-07,Ekurhuleni,42304,409
@@ -133,10 +140,13 @@ date,district,cum_no,daily_no
 2020-08-26,Ekurhuleni,46682,172
 2020-08-27,Ekurhuleni,46805,123
 2020-08-28,Ekurhuleni,46925,120
+2020-08-29,Ekurhuleni,47057,132
+2020-08-30,Ekurhuleni,47186,129
 2020-04-10,Johannesburg,446,446
 2020-04-11,Johannesburg,467,21
 2020-04-12,Johannesburg,508,41
 2020-04-13,Johannesburg,551,43
+2020-04-14,Johannesburg,551,0
 2020-04-15,Johannesburg,558,7
 2020-04-16,Johannesburg,575,17
 2020-04-17,Johannesburg,599,24
@@ -169,6 +179,7 @@ date,district,cum_no,daily_no
 2020-05-14,Johannesburg,1153,29
 2020-05-15,Johannesburg,1179,26
 2020-05-16,Johannesburg,1195,16
+2020-05-17,Johannesburg,1195,0
 2020-05-18,Johannesburg,1204,9
 2020-05-19,Johannesburg,1214,10
 2020-05-20,Johannesburg,1238,24
@@ -228,6 +239,7 @@ date,district,cum_no,daily_no
 2020-07-13,Johannesburg,46882,1937
 2020-07-14,Johannesburg,48314,1432
 2020-07-15,Johannesburg,50364,2050
+2020-07-16,Johannesburg,50364,0
 2020-07-17,Johannesburg,54428,4064
 2020-07-18,Johannesburg,56442,2014
 2020-07-19,Johannesburg,58301,1859
@@ -243,6 +255,10 @@ date,district,cum_no,daily_no
 2020-07-29,Johannesburg,70330,1275
 2020-07-30,Johannesburg,71322,992
 2020-07-31,Johannesburg,72467,1145
+2020-08-01,Johannesburg,72467,0
+2020-08-02,Johannesburg,72467,0
+2020-08-03,Johannesburg,72467,0
+2020-08-04,Johannesburg,72467,0
 2020-08-05,Johannesburg,75654,3187
 2020-08-06,Johannesburg,76297,643
 2020-08-07,Johannesburg,76763,466
@@ -267,10 +283,13 @@ date,district,cum_no,daily_no
 2020-08-26,Johannesburg,83439,364
 2020-08-27,Johannesburg,83578,139
 2020-08-28,Johannesburg,83686,108
+2020-08-29,Johannesburg,83844,158
+2020-08-30,Johannesburg,84018,174
 2020-04-10,Sedibeng,6,6
 2020-04-11,Sedibeng,6,0
 2020-04-12,Sedibeng,8,2
 2020-04-13,Sedibeng,9,1
+2020-04-14,Sedibeng,9,0
 2020-04-15,Sedibeng,8,-1
 2020-04-16,Sedibeng,8,0
 2020-04-17,Sedibeng,10,2
@@ -303,6 +322,7 @@ date,district,cum_no,daily_no
 2020-05-14,Sedibeng,31,3
 2020-05-15,Sedibeng,38,7
 2020-05-16,Sedibeng,39,1
+2020-05-17,Sedibeng,39,0
 2020-05-18,Sedibeng,39,0
 2020-05-19,Sedibeng,40,1
 2020-05-20,Sedibeng,43,3
@@ -362,6 +382,7 @@ date,district,cum_no,daily_no
 2020-07-13,Sedibeng,5425,402
 2020-07-14,Sedibeng,5839,414
 2020-07-15,Sedibeng,6269,430
+2020-07-16,Sedibeng,6269,0
 2020-07-17,Sedibeng,7093,824
 2020-07-18,Sedibeng,7440,347
 2020-07-19,Sedibeng,7906,466
@@ -377,6 +398,10 @@ date,district,cum_no,daily_no
 2020-07-29,Sedibeng,10722,256
 2020-07-30,Sedibeng,11023,301
 2020-07-31,Sedibeng,11340,317
+2020-08-01,Sedibeng,11340,0
+2020-08-02,Sedibeng,11340,0
+2020-08-03,Sedibeng,11340,0
+2020-08-04,Sedibeng,11340,0
 2020-08-05,Sedibeng,12210,870
 2020-08-06,Sedibeng,12440,230
 2020-08-07,Sedibeng,12541,101
@@ -401,10 +426,13 @@ date,district,cum_no,daily_no
 2020-08-26,Sedibeng,14016,70
 2020-08-27,Sedibeng,14083,67
 2020-08-28,Sedibeng,14105,22
+2020-08-29,Sedibeng,14166,61
+2020-08-30,Sedibeng,14209,43
 2020-04-10,Tshwane,90,90
 2020-04-11,Tshwane,92,2
 2020-04-12,Tshwane,101,9
 2020-04-13,Tshwane,100,-1
+2020-04-14,Tshwane,100,0
 2020-04-15,Tshwane,104,4
 2020-04-16,Tshwane,109,5
 2020-04-17,Tshwane,110,1
@@ -437,6 +465,7 @@ date,district,cum_no,daily_no
 2020-05-14,Tshwane,310,6
 2020-05-15,Tshwane,322,12
 2020-05-16,Tshwane,324,2
+2020-05-17,Tshwane,324,0
 2020-05-18,Tshwane,341,17
 2020-05-19,Tshwane,336,-5
 2020-05-20,Tshwane,344,8
@@ -496,6 +525,7 @@ date,district,cum_no,daily_no
 2020-07-13,Tshwane,17695,994
 2020-07-14,Tshwane,18269,574
 2020-07-15,Tshwane,19664,1395
+2020-07-16,Tshwane,19664,0
 2020-07-17,Tshwane,21929,2265
 2020-07-18,Tshwane,23013,1084
 2020-07-19,Tshwane,24036,1023
@@ -511,6 +541,10 @@ date,district,cum_no,daily_no
 2020-07-29,Tshwane,33017,981
 2020-07-30,Tshwane,34050,1033
 2020-07-31,Tshwane,35098,1048
+2020-08-01,Tshwane,35098,0
+2020-08-02,Tshwane,35098,0
+2020-08-03,Tshwane,35098,0
+2020-08-04,Tshwane,35098,0
 2020-08-05,Tshwane,38023,2925
 2020-08-06,Tshwane,38814,791
 2020-08-07,Tshwane,39286,472
@@ -535,10 +569,13 @@ date,district,cum_no,daily_no
 2020-08-26,Tshwane,44584,246
 2020-08-27,Tshwane,44788,204
 2020-08-28,Tshwane,44933,145
+2020-08-29,Tshwane,45077,144
+2020-08-30,Tshwane,45213,136
 2020-04-10,WestRand,12,12
 2020-04-11,WestRand,30,18
 2020-04-12,WestRand,30,0
 2020-04-13,WestRand,35,5
+2020-04-14,WestRand,35,0
 2020-04-15,WestRand,35,0
 2020-04-16,WestRand,35,0
 2020-04-17,WestRand,35,0
@@ -571,6 +608,7 @@ date,district,cum_no,daily_no
 2020-05-14,WestRand,67,3
 2020-05-15,WestRand,68,1
 2020-05-16,WestRand,71,3
+2020-05-17,WestRand,71,0
 2020-05-18,WestRand,71,0
 2020-05-19,WestRand,71,0
 2020-05-20,WestRand,72,1
@@ -630,6 +668,7 @@ date,district,cum_no,daily_no
 2020-07-13,WestRand,6903,420
 2020-07-14,WestRand,7121,218
 2020-07-15,WestRand,7532,411
+2020-07-16,WestRand,7532,0
 2020-07-17,WestRand,8232,700
 2020-07-18,WestRand,8531,299
 2020-07-19,WestRand,8835,304
@@ -645,6 +684,10 @@ date,district,cum_no,daily_no
 2020-07-29,WestRand,11059,218
 2020-07-30,WestRand,11274,215
 2020-07-31,WestRand,11478,204
+2020-08-01,WestRand,11478,0
+2020-08-02,WestRand,11478,0
+2020-08-03,WestRand,11478,0
+2020-08-04,WestRand,11478,0
 2020-08-05,WestRand,12028,550
 2020-08-06,WestRand,12155,127
 2020-08-07,WestRand,12217,62
@@ -669,10 +712,13 @@ date,district,cum_no,daily_no
 2020-08-26,WestRand,13305,56
 2020-08-27,WestRand,13337,32
 2020-08-28,WestRand,13359,22
+2020-08-29,WestRand,13390,31
+2020-08-30,WestRand,13420,30
 2020-04-10,Unknown,127,127
 2020-04-11,Unknown,77,-50
 2020-04-12,Unknown,77,0
 2020-04-13,Unknown,66,-11
+2020-04-14,Unknown,66,0
 2020-04-15,Unknown,64,-2
 2020-04-16,Unknown,62,-2
 2020-04-17,Unknown,68,6
@@ -705,6 +751,7 @@ date,district,cum_no,daily_no
 2020-05-14,Unknown,114,16
 2020-05-15,Unknown,126,12
 2020-05-16,Unknown,145,19
+2020-05-17,Unknown,145,0
 2020-05-18,Unknown,161,16
 2020-05-19,Unknown,162,1
 2020-05-20,Unknown,154,-8
@@ -764,6 +811,7 @@ date,district,cum_no,daily_no
 2020-07-13,Unknown,3590,121
 2020-07-14,Unknown,3760,170
 2020-07-15,Unknown,3937,177
+2020-07-16,Unknown,3937,0
 2020-07-17,Unknown,4192,255
 2020-07-18,Unknown,4492,300
 2020-07-19,Unknown,4652,160
@@ -779,6 +827,10 @@ date,district,cum_no,daily_no
 2020-07-29,Unknown,5563,132
 2020-07-30,Unknown,5632,69
 2020-07-31,Unknown,5708,76
+2020-08-01,Unknown,5708,0
+2020-08-02,Unknown,5708,0
+2020-08-03,Unknown,5708,0
+2020-08-04,Unknown,5708,0
 2020-08-05,Unknown,5974,266
 2020-08-06,Unknown,6030,56
 2020-08-07,Unknown,6048,18
@@ -803,3 +855,5 @@ date,district,cum_no,daily_no
 2020-08-26,Unknown,5584,-190
 2020-08-27,Unknown,5565,-19
 2020-08-28,Unknown,5571,6
+2020-08-29,Unknown,5589,18
+2020-08-30,Unknown,5602,13
