@@ -3,7 +3,7 @@ layout: default
 title: Covid-19 SA Provincial Data - Gauteng
 description: South African Covid-19 data & visualisations for Gauteng. <br>Contains data for confirmed cases, tests, recoveries, deaths & active cases.
 author: Simon Rosen
-last_updated: 09 September 2020
+last_updated: 10 September 2020
 ---
 <center><a href="/provinces" class="btn alt_btn_col">Data Per Province Page</a></center> 
 Click the above button to be taken to a page showing Covid19 data per province. 
@@ -23,43 +23,43 @@ ___
 <tbody>
 	<tr>
 		<td class="index" markdown="span">Ekurhuleni</td>
-		<td  markdown="span">48 135</td>
-		<td  markdown="span">+73</td>
+		<td  markdown="span">48 202</td>
+		<td  markdown="span">+67</td>
 	</tr>
 	<tr>
 		<td class="index" markdown="span">Johannesburg</td>
-		<td  markdown="span">85 866</td>
-		<td  markdown="span">+137</td>
+		<td  markdown="span">85 997</td>
+		<td  markdown="span">+131</td>
 	</tr>
 	<tr>
 		<td class="index" markdown="span">Sedibeng</td>
-		<td  markdown="span">14 501</td>
-		<td  markdown="span">+17</td>
+		<td  markdown="span">14 540</td>
+		<td  markdown="span">+39</td>
 	</tr>
 	<tr>
 		<td class="index" markdown="span">Tshwane</td>
-		<td  markdown="span">46 711</td>
-		<td  markdown="span">+144</td>
+		<td  markdown="span">46 865</td>
+		<td  markdown="span">+154</td>
 	</tr>
 	<tr>
 		<td class="index" markdown="span">WestRand</td>
-		<td  markdown="span">13 829</td>
-		<td  markdown="span">+35</td>
+		<td  markdown="span">13 850</td>
+		<td  markdown="span">+21</td>
 	</tr>
 	<tr>
 		<td class="index" markdown="span">Unknown</td>
-		<td  markdown="span">4 699</td>
-		<td  markdown="span">+2</td>
+		<td  markdown="span">4 698</td>
+		<td  markdown="span">-1</td>
 	</tr>
 	<tr>
 		<td class="index total" markdown="span">Total</td>
-		<td class="total" markdown="span">213 741</td>
-		<td class="total" markdown="span">+408</td>
+		<td class="total" markdown="span">214 152</td>
+		<td class="total" markdown="span">+411</td>
 	</tr>
 </tbody>
 </table>
 
-All data is for **09 September 2020**.
+All data is for **10 September 2020**.
 
 # Total & Latest Change in Cases
 
