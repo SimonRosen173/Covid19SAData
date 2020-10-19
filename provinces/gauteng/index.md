@@ -3,7 +3,7 @@ layout: default
 title: Covid-19 SA Provincial Data - Gauteng
 description: South African Covid-19 data & visualisations for Gauteng. <br>Contains data for confirmed cases, tests, recoveries, deaths & active cases.
 author: Simon Rosen
-last_updated: 16 October 2020
+last_updated: 17 October 2020
 ---
 <center><a href="/provinces" class="btn alt_btn_col">Data Per Province Page</a></center> 
 Click the above button to be taken to a page showing Covid19 data per province. 
@@ -23,43 +23,43 @@ ___
 <tbody>
 	<tr>
 		<td class="index" markdown="span">Ekurhuleni</td>
-		<td  markdown="span">50 209</td>
-		<td  markdown="span">+52</td>
+		<td  markdown="span">50 258</td>
+		<td  markdown="span">+49</td>
 	</tr>
 	<tr>
 		<td class="index" markdown="span">Johannesburg</td>
-		<td  markdown="span">89 486</td>
-		<td  markdown="span">+144</td>
+		<td  markdown="span">89 621</td>
+		<td  markdown="span">+135</td>
 	</tr>
 	<tr>
 		<td class="index" markdown="span">Sedibeng</td>
-		<td  markdown="span">15 185</td>
-		<td  markdown="span">+23</td>
+		<td  markdown="span">15 206</td>
+		<td  markdown="span">+21</td>
 	</tr>
 	<tr>
 		<td class="index" markdown="span">Tshwane</td>
-		<td  markdown="span">50 429</td>
-		<td  markdown="span">+152</td>
+		<td  markdown="span">50 536</td>
+		<td  markdown="span">+107</td>
 	</tr>
 	<tr>
 		<td class="index" markdown="span">WestRand</td>
-		<td  markdown="span">14 392</td>
-		<td  markdown="span">+28</td>
+		<td  markdown="span">14 404</td>
+		<td  markdown="span">+12</td>
 	</tr>
 	<tr>
 		<td class="index" markdown="span">Unknown</td>
-		<td  markdown="span">4 833</td>
-		<td  markdown="span">-23</td>
+		<td  markdown="span">4 838</td>
+		<td  markdown="span">+5</td>
 	</tr>
 	<tr>
 		<td class="index total" markdown="span">Total</td>
-		<td class="total" markdown="span">224 534</td>
-		<td class="total" markdown="span">+376</td>
+		<td class="total" markdown="span">224 863</td>
+		<td class="total" markdown="span">+329</td>
 	</tr>
 </tbody>
 </table>
 
-All data is for **16 October 2020**.
+All data is for **17 October 2020**.
 
 # Total & Latest Change in Cases
 
