@@ -3,7 +3,7 @@ layout: default
 title: Covid-19 SA Provincial Data
 description: South African Provincial Covid-19 data & visualisations. <br>Contains data for confirmed cases, tests, recoveries and deaths by province.
 author: Simon Rosen
-last_updated: 08:00 29 October 2020
+last_updated: 08:00 30 October 2020
 ---
 
 <center><a href="/" class="btn alt_btn_col">Home</a></center>
