@@ -205,6 +205,7 @@ date,district,cum_no,daily_no
 2020-10-30,Ekurhuleni,50858,65
 2020-10-31,Ekurhuleni,50947,89
 2020-11-01,Ekurhuleni,50984,37
+2020-11-02,Ekurhuleni,51004,20
 2020-04-10,Johannesburg,446,446
 2020-04-11,Johannesburg,467,21
 2020-04-12,Johannesburg,508,41
@@ -411,6 +412,7 @@ date,district,cum_no,daily_no
 2020-10-30,Johannesburg,90958,94
 2020-10-31,Johannesburg,91060,102
 2020-11-01,Johannesburg,91127,67
+2020-11-02,Johannesburg,91156,29
 2020-04-10,Sedibeng,6,6
 2020-04-11,Sedibeng,6,0
 2020-04-12,Sedibeng,8,2
@@ -617,6 +619,7 @@ date,district,cum_no,daily_no
 2020-10-30,Sedibeng,15396,20
 2020-10-31,Sedibeng,15414,18
 2020-11-01,Sedibeng,15423,9
+2020-11-02,Sedibeng,15429,6
 2020-04-10,Tshwane,90,90
 2020-04-11,Tshwane,92,2
 2020-04-12,Tshwane,101,9
@@ -823,6 +826,7 @@ date,district,cum_no,daily_no
 2020-10-30,Tshwane,51881,99
 2020-10-31,Tshwane,51958,77
 2020-11-01,Tshwane,52020,62
+2020-11-02,Tshwane,52046,26
 2020-04-10,WestRand,12,12
 2020-04-11,WestRand,30,18
 2020-04-12,WestRand,30,0
@@ -1029,6 +1033,7 @@ date,district,cum_no,daily_no
 2020-10-30,WestRand,14590,24
 2020-10-31,WestRand,14621,31
 2020-11-01,WestRand,14636,15
+2020-11-02,WestRand,14644,8
 2020-04-10,Unknown,127,127
 2020-04-11,Unknown,77,-50
 2020-04-12,Unknown,77,0
@@ -1235,3 +1240,4 @@ date,district,cum_no,daily_no
 2020-10-30,Unknown,4749,2
 2020-10-31,Unknown,4756,7
 2020-11-01,Unknown,4758,2
+2020-11-02,Unknown,4761,3
