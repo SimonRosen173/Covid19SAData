@@ -3,7 +3,7 @@ layout: default
 title: Covid-19 SA Data
 description: South African Covid-19 data & visualisations. <br>Contains data for confirmed cases, tests, recoveries, deaths & active cases.
 author: Simon Rosen
-last_updated: 08:00 20 November 2020
+last_updated: 08:00 21 November 2020
 ---
 <center><a href="/provinces" class="btn alt_btn_col">Data Per Province Page</a></center> 
 Click the above button to be taken to a page showing Covid19 data per province. 
@@ -15,7 +15,7 @@ ___
 
 These charts are all interactive. Mouse over an aspect of the chart to see more info, or if you are on mobile tap.
 # Total Cases & Tests
-**759 658 Cases (+2 514 change) | 5 214 036 Tested (+24 456 change)**
+**762 763 Cases (+3 105 change) | 5 243 055 Tested (+29 019 change)**
 <br><br>
 
 ___
@@ -28,7 +28,7 @@ ___
 </div>-->
 
 # Total Deaths & Recoveries
-**20 671 Deaths (+115 change) | 702 544 Recoveries (+1 010 change)** 
+**20 759 Deaths (+88 change) | 707 040 Recoveries (+4 496 change)** 
 <br><br>
 
 ___
@@ -138,7 +138,7 @@ ___
 
 <!--
 <br>
-**Data last updated: 08:00 20 November 2020**
+**Data last updated: 08:00 21 November 2020**
 -->
 
 {% include_relative _includes/footer.md %}
