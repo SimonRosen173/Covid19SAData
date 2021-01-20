@@ -3,7 +3,7 @@ layout: default
 title: Covid-19 SA Provincial Data - Gauteng
 description: South African Covid-19 data & visualisations for Gauteng. <br>Contains data for confirmed cases, tests, recoveries, deaths & active cases.
 author: Simon Rosen
-last_updated: 12 January 2021
+last_updated: 15 January 2021
 ---
 <center><a href="/provinces" class="btn alt_btn_col">Data Per Province Page</a></center> 
 Click the above button to be taken to a page showing Covid19 data per province. 
@@ -23,43 +23,43 @@ ___
 <tbody>
 	<tr>
 		<td class="index" markdown="span">Ekurhuleni</td>
-		<td  markdown="span">72 956</td>
-		<td  markdown="span">+799</td>
+		<td  markdown="span">75 599</td>
+		<td  markdown="span">+832</td>
 	</tr>
 	<tr>
 		<td class="index" markdown="span">Johannesburg</td>
-		<td  markdown="span">137 862</td>
-		<td  markdown="span">+1 030</td>
+		<td  markdown="span">142 846</td>
+		<td  markdown="span">+1 472</td>
 	</tr>
 	<tr>
 		<td class="index" markdown="span">Sedibeng</td>
-		<td  markdown="span">19 090</td>
-		<td  markdown="span">+214</td>
+		<td  markdown="span">19 798</td>
+		<td  markdown="span">+197</td>
 	</tr>
 	<tr>
 		<td class="index" markdown="span">Tshwane</td>
-		<td  markdown="span">88 437</td>
-		<td  markdown="span">+1 160</td>
+		<td  markdown="span">92 647</td>
+		<td  markdown="span">+1 165</td>
 	</tr>
 	<tr>
 		<td class="index" markdown="span">WestRand</td>
-		<td  markdown="span">20 250</td>
-		<td  markdown="span">+141</td>
+		<td  markdown="span">20 835</td>
+		<td  markdown="span">+65</td>
 	</tr>
 	<tr>
 		<td class="index" markdown="span">Unknown</td>
-		<td  markdown="span">2 865</td>
-		<td  markdown="span">+45</td>
+		<td  markdown="span">3 167</td>
+		<td  markdown="span">+179</td>
 	</tr>
 	<tr>
 		<td class="index total" markdown="span">Total</td>
-		<td class="total" markdown="span">341 460</td>
-		<td class="total" markdown="span">+3 389</td>
+		<td class="total" markdown="span">354 892</td>
+		<td class="total" markdown="span">+3 910</td>
 	</tr>
 </tbody>
 </table>
 
-All data is for **12 January 2021**.
+All data is for **15 January 2021**.
 
 # Total & Latest Change in Cases
 
