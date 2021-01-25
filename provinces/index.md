@@ -3,7 +3,7 @@ layout: default
 title: Covid-19 SA Provincial Data
 description: South African Provincial Covid-19 data & visualisations. <br>Contains data for confirmed cases, tests, recoveries and deaths by province.
 author: Simon Rosen
-last_updated: 20:57 20 January 2021
+last_updated: 13:54 25 January 2021
 ---
 
 <center><a href="/" class="btn alt_btn_col">Home</a></center>
@@ -29,84 +29,84 @@ ___
 <tbody>
 	<tr>
 		<td class="index" markdown="span">Eastern Cape</td>
-		<td  markdown="span">187 552</td>
-		<td  markdown="span">+381</td>
-		<td  markdown="span">173 575</td>
-		<td  markdown="span">+952</td>
-		<td  markdown="span">9 612</td>
-		<td  markdown="span">+102</td>
+		<td  markdown="span">190 402</td>
+		<td  markdown="span">+318</td>
+		<td  markdown="span">175 708</td>
+		<td  markdown="span">+0</td>
+		<td  markdown="span">10 072</td>
+		<td  markdown="span">+43</td>
 	</tr>
 	<tr>
 		<td class="index" markdown="span">Free State</td>
-		<td  markdown="span">71 237</td>
-		<td  markdown="span">+346</td>
-		<td  markdown="span">59 268</td>
-		<td  markdown="span">+1 203</td>
-		<td  markdown="span">2 493</td>
-		<td  markdown="span">+20</td>
+		<td  markdown="span">73 792</td>
+		<td  markdown="span">+468</td>
+		<td  markdown="span">61 269</td>
+		<td  markdown="span">+99</td>
+		<td  markdown="span">2 625</td>
+		<td  markdown="span">+15</td>
 	</tr>
 	<tr>
 		<td class="index" markdown="span"><a href = "gauteng" >Gauteng</a></td>
-		<td  markdown="span">366 432</td>
-		<td  markdown="span">+2 163</td>
-		<td  markdown="span">322 434</td>
-		<td  markdown="span">+6 452</td>
-		<td  markdown="span">7 057</td>
-		<td  markdown="span">+48</td>
+		<td  markdown="span">380 381</td>
+		<td  markdown="span">+1 725</td>
+		<td  markdown="span">350 798</td>
+		<td  markdown="span">+8 098</td>
+		<td  markdown="span">7 642</td>
+		<td  markdown="span">+45</td>
 	</tr>
 	<tr>
 		<td class="index" markdown="span">KwaZulu-Natal</td>
-		<td  markdown="span">287 042</td>
-		<td  markdown="span">+3 866</td>
-		<td  markdown="span">226 342</td>
-		<td  markdown="span">+11 544</td>
-		<td  markdown="span">6 672</td>
-		<td  markdown="span">+263</td>
+		<td  markdown="span">302 582</td>
+		<td  markdown="span">+2 842</td>
+		<td  markdown="span">246 728</td>
+		<td  markdown="span">+832</td>
+		<td  markdown="span">7 372</td>
+		<td  markdown="span">+70</td>
 	</tr>
 	<tr>
 		<td class="index" markdown="span">Limpopo</td>
-		<td  markdown="span">49 012</td>
-		<td  markdown="span">+854</td>
-		<td  markdown="span">40 232</td>
-		<td  markdown="span">+471</td>
-		<td  markdown="span">977</td>
-		<td  markdown="span">+238</td>
+		<td  markdown="span">54 362</td>
+		<td  markdown="span">+420</td>
+		<td  markdown="span">47 601</td>
+		<td  markdown="span">+1 492</td>
+		<td  markdown="span">1 023</td>
+		<td  markdown="span">+0</td>
 	</tr>
 	<tr>
 		<td class="index" markdown="span">Mpumalanga</td>
-		<td  markdown="span">54 678</td>
-		<td  markdown="span">+835</td>
-		<td  markdown="span">46 394</td>
-		<td  markdown="span">+1 168</td>
-		<td  markdown="span">808</td>
-		<td  markdown="span">+11</td>
+		<td  markdown="span">60 355</td>
+		<td  markdown="span">+1 064</td>
+		<td  markdown="span">52 732</td>
+		<td  markdown="span">+1 253</td>
+		<td  markdown="span">873</td>
+		<td  markdown="span">+6</td>
 	</tr>
 	<tr>
 		<td class="index" markdown="span">Northern Cape</td>
-		<td  markdown="span">29 894</td>
-		<td  markdown="span">+137</td>
-		<td  markdown="span">24 734</td>
-		<td  markdown="span">+79</td>
-		<td  markdown="span">511</td>
+		<td  markdown="span">30 960</td>
+		<td  markdown="span">+172</td>
+		<td  markdown="span">25 836</td>
+		<td  markdown="span">+0</td>
+		<td  markdown="span">546</td>
 		<td  markdown="span">+2</td>
 	</tr>
 	<tr>
 		<td class="index" markdown="span">North West</td>
-		<td  markdown="span">51 771</td>
-		<td  markdown="span">+224</td>
-		<td  markdown="span">37 418</td>
-		<td  markdown="span">+125</td>
-		<td  markdown="span">808</td>
-		<td  markdown="span">+25</td>
+		<td  markdown="span">54 724</td>
+		<td  markdown="span">+358</td>
+		<td  markdown="span">40 165</td>
+		<td  markdown="span">+0</td>
+		<td  markdown="span">877</td>
+		<td  markdown="span">+14</td>
 	</tr>
 	<tr>
 		<td class="index" markdown="span">Western Cape</td>
-		<td  markdown="span">259 098</td>
-		<td  markdown="span">+974</td>
-		<td  markdown="span">214 460</td>
-		<td  markdown="span">+5 411</td>
-		<td  markdown="span">9 350</td>
-		<td  markdown="span">+130</td>
+		<td  markdown="span">265 428</td>
+		<td  markdown="span">+780</td>
+		<td  markdown="span">229 683</td>
+		<td  markdown="span">+1 254</td>
+		<td  markdown="span">9 844</td>
+		<td  markdown="span">+105</td>
 	</tr>
 	<tr>
 		<td class="index" markdown="span">Unknown</td>
@@ -119,12 +119,12 @@ ___
 	</tr>
 	<tr>
 		<td class="index total" markdown="span">Total</td>
-		<td class="total" markdown="span">1 356 716</td>
-		<td class="total" markdown="span">+9 780</td>
-		<td class="total" markdown="span">1 144 857</td>
-		<td class="total" markdown="span">+27 405</td>
-		<td class="total" markdown="span">38 288</td>
-		<td class="total" markdown="span">+839</td>
+		<td class="total" markdown="span">1 412 986</td>
+		<td class="total" markdown="span">+8 147</td>
+		<td class="total" markdown="span">1 230 520</td>
+		<td class="total" markdown="span">+13 028</td>
+		<td class="total" markdown="span">40 874</td>
+		<td class="total" markdown="span">+300</td>
 	</tr>
 </tbody>
 </table>
